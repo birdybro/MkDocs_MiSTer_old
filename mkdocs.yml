@@ -13,6 +13,8 @@ edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2022 MiSTer FPGA
 
 theme:
+  palette:
+    - scheme: slate 
   name: material
   favicon: assets/favicon.ico
   logo: assets/mister_kun_bw.svg
