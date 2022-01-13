@@ -1,5 +1,7 @@
-| Core Name                                                                             |
-| ------------------------------------------------------------------------------------- |
+Here is a list of the arcade cores that are in the MiSTer Github Repository.
+
+| Core Name                                                                          |
+| ---------------------------------------------------------------------------------- |
 | [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)                 |
 | [AsteroidsDeluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MiSTer)   |
 | [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer)               |

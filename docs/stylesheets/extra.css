@@ -26,16 +26,15 @@
   --md-code-hl-keyword-color: #ff79c6;
   --md-code-hl-string-color: #1c7d4d;
   --md-code-hl-name-color: #8be9fd;
-  --md-code-hl-operator-color: #ff79c6;
-  --md-code-hl-punctuation-color: #f8f8f2;
+  --md-code-hl-operator-color: var(--md-code-hl-keyword-color);
+  --md-code-hl-punctuation-color: var(--md-code-fg-color);
   --md-code-hl-comment-color: #6272a4;
   --md-code-hl-generic-color: #f8f8f28a;
-  --md-code-hl-variable-color: #f8f8f28a;
+  --md-code-hl-variable-color: var(--md-code-h1-generic-color);
 
   --md-footer-fg-color: #ffffff;
   --md-footer-fg-color--light: #ffffffe5;
   --md-footer-fg-color--lighter: #ffffffc7;
   --md-footer-bg-color: #514689de;
   --md-footer-bg-color--dark: #51468952;
-  
 }
