@@ -97,6 +97,7 @@ nav:
       - Using Your CRT With MiSTer: advanced/crt.md
     - Audio Filters: advanced/audio.md
     - Global INI Settings: advanced/global.md
+    - Screenshots: advanced/screenshots.md
     - Cheat Engine: advanced/cheats.md
 
   - Developer Reference:
