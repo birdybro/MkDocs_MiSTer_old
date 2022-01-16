@@ -51,7 +51,7 @@ Generally the rule of thumb is, start at `vsync_adjust=2`, and if a core doesn't
 
 ### Core exceptions
 
-There are also ways to add exceptions. My monitor doesn't play nice with the low lag setting on the Genesis core. So in my MiSter.ini, I added the following override/exception for just the MiSTer core:
+There are also ways to add exceptions. My monitor doesn't play nice with the low lag setting on the Genesis core. So in my MiSter.ini, I added the following override/exception to the **end of the file** for just the MiSTer core:
 
 ```ini
 [Genesis]
