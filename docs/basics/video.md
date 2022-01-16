@@ -34,9 +34,17 @@ This tells you that `video_mode=0` will set you to 1280x720 resolution at 60hz. 
 Another important option is `vsync_adjust`. Most modern displays work fine at 60hz, but some games run at 60.6 hz (like Donkey Kong for the arcades) which is a "non-standard refresh rate". Therefore, MiSTer has what is called a "framebuffer". The game is still running at 60.6hz but the frames are sent at 60hz. So occasionally there is a little "stutter" on the screen to make up for the frames going too fast and being adjusted. To use a framebuffer adds lag, on the MiSTer it is typically about 2-3 frames of lag if you use the most compatible 60hz only option. here's a list of the options and what they do.
 
 ```ini
-vsync_adjust=0 ; This matches the refresh rate of your monitor (e.g. 60hz) and has about 2-3 frames of lag. Video output can be somewhat jittery.
-vsync_adjust=1 ; This makes the video output at exactly the frame rate of the game (e.g. 60.6hz). It has 1 frame of lag, but it is less compatible with modern televisions. Video output is very smooth
-vsync_adjust=2 ; This makes the video output draw to the screen as fast as possible (sorta), and can result in sub-frame lag consistently. However this is the least compatible mode. The video output is the most smooth.
+vsync_adjust=0 ; This matches the refresh rate of your monitor 
+               ; (e.g. 60hz) and has about 2-3 frames of lag. 
+               ; Video output can be somewhat jittery.
+vsync_adjust=1 ; This makes the video output at exactly the 
+               ; frame rate of the game (e.g. 60.6hz). 
+               ; It has 1 frame of lag, but it is less compatible with 
+               ; modern televisions. Video output is very smooth.
+vsync_adjust=2 ; This makes the video output draw to the screen as fast
+               ; as possible (sorta), and can result in sub-frame lag 
+               ; consistently. However this is the least compatible mode.
+               ; The video output is the most smooth.
 ```
 
 Generally the rule of thumb is, start at `vsync_adjust=2`, and if a core doesn't work taht you want to play on, then dial it back. 
