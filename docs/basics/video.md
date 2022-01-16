@@ -128,7 +128,7 @@ I will apply a very mild "Gamma Curve" called `gamma_113.txt` which is located i
 
 Some people like a good video to see how it's done:
 ### 5x mode video
-![type:video](videos/5x.mp4)]
+![type:video](videos/5x.mp4)
 
 ### gamma controls video
 ![type:video](videos/gamma.mp4)
