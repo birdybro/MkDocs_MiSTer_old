@@ -2,7 +2,7 @@ Here's a breakdown of the basic video customization features on the MiSTer. You 
 
 ## MiSTer Ini Video Settings
 
-In the `MiSTer.ini` file there are lots of video setttings to mess with. We'll just focus on a couple here for now and you can dive deeper in the [Advanced - Video](../advanced/video.md) section.
+In the `MiSTer.ini` file there are lots of video setttings to mess with. We'll just focus on a couple here for now and you can dive deeper in the [Advanced - Video](../advanced/video.md){target=_blank} section.
 
 First, you can edit the settings in the `MiSTer.ini` file with windows Notepad, Visual Studio Code, Notepad++. Pretty much any text editor will be fine. Alternatively you can run the `ini-settings.sh` script in the scripts folder, this has a simple interface to change options.
 
@@ -10,7 +10,7 @@ First, you can edit the settings in the `MiSTer.ini` file with windows Notepad, 
 
 A bit of a ways down the .ini file there is a `video_mode` option. Above it the resolutions are commented:
 
-```
+```ini
 ; 0 - 1280x720@60
 ; 1 - 1024x768@60
 ; 2 - 720x480@60
@@ -98,23 +98,26 @@ Now your `vert filter: scanlines - brighter.txt` option should have evenly space
 
 MiSTer FPGA also has another layer options available to use called `Shadowmasks`. These attempt to simulate the appearance of the grille or mask on an old CRT screen. There are lots of options, but we are just going to use personally one of the most versatile color shadowmasks for this tutorial, `Squished VGA Bright v2.txt`. This shadowmask attempts to resemble consumer computer monitors and some tv's which had red, green, and blue phosphors in a particular pattern. Here is a picture of the options after I've added this Shadowmask to the same game's video processing menu:
 
-[![MiSTer FPGA Shadowmasks / Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/squished-vga-bright-v2.txt)](img/squished-vga-bright-v2.txt){target=_blank}
+[![MiSTer FPGA Shadowmasks / Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/squished-vga-bright-v2.png)](img/squished-vga-bright-v2.png){target=_blank}
 
 ## Gamma
 
-Gamma is a bit of a tricky thing to explain. Basically, gamma on an old CRT is the relationship between voltage and brightness. Think of a graph, the x-axis is voltage and the y-axis is the brightness. Modern televisions are (ideally) a totally straight line. Old CRT's have a curve. At lower voltage it is a lot less brightness than you'd expect. And at higher voltage, it's a lot higher than you'd expect. And typically, in the mid-range it's about the same or lower.
+Gamma is a bit of a tricky thing to explain. Basically, gamma on an old CRT is the relationship between voltage and brightness. Think of a graph, the x-axis is voltage and the y-axis is the "brightness" (more accurately called luminance). Modern televisions are (ideally) a totally straight line. Old CRT's have a curve. At medium voltage and brightness it is a lot less brightness than you'd expect. Sorta like this:
 
+![MiSTer FPGA documentation gamma explanation graph example](img/gamma-curve.png)  
+[Image Source](https://www.japanistry.com/understanding-gamma-in-photography/){target=_blank}
 
+Now given that the MiSTer is outputting the linear example, the Gamma filters can restore a similar Gamma curve as you may have been used to with your old television. This is especially helpful because we have just applied a "brighter" scanline and a shadowmask (which added a mask of colors across the screen imitating a CRT's phosphors). If you've been following along with this tutorial so far, we're gonna play with Gamma just to see how it looks to your eyes. This is all personal preference. If it looks good to you, great. If someone else doesn't like it, well... tough! :)
 
+I will apply a very mild "Gamma Curve" called `gamma_113.txt` which is located in the `Pure_Gamma` folder when you select the gamma options. This gamma curve is allegedly supposed to get you close to a typical consumer CRT's gamma curve. Don't quote on me on that, I heard it from someone, somewhere, that one time...
 
-* Brief description of subjects
-* Scaler setup: latency and resolution
-* Scanlines and shadowmasks
-* Gamma
-* 5x mode ("requires 1080p", etc...)
+[![MiSTer FPGA Gamma curve explanation with Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/pure_gamma-gamma_113.png)](img/pure_gamma-gamma_113.png){target=_blank}
 
-## 5x mode video
+### Video demonstrations
+
+Some people like a good video to see how it's done:
+### 5x mode video
 ![type:video](videos/5x.mp4)]
 
-## gamma controls video
+### gamma controls video
 ![type:video](videos/gamma.mp4)
