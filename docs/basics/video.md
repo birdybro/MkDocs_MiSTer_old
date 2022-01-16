@@ -10,7 +10,7 @@ First, you can edit the settings in the `MiSTer.ini` file with windows Notepad, 
 
 A bit of a ways down the .ini file there is a `video_mode` option. Above it the resolutions are commented:
 
-```ini
+```
 ; 0 - 1280x720@60
 ; 1 - 1024x768@60
 ; 2 - 720x480@60
