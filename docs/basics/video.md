@@ -52,7 +52,10 @@ vsync_adjust=0
 
 This makes it so no matter what my `vsync_adjust` setting is in the upper section, when I use the Genesis core, it will force it to use `vsync_adjust=0` (the most compatible mode) every time.
 
-## Filters (and scanlines)
+## Video Processing Options Tutorial
+
+Here's a tutorial that you can follow along to get you started using the powerful video processing options on MiSTer FPGA.
+### Filters (and scanlines)
 
 MiSTer has the capability to use upscaling filters and scanlines to help enhance the video output or even make it feel similar to a retro CRT television. If you opened the NES core for the first time after setting the MiSter's video output to 1920x1080p and loaded up Duck Tales, then you should see something like this:
 
@@ -82,7 +85,7 @@ Now let's say you want some scanlines, sorta like what CRT's had and some emulat
 
 [![MiSTer FPGA's Vertical filter Scanlines - Brighter vert filter](img/scanlines-brighter.png)](img/scanlines-brighter.png){target=_blank}
 
-## 5x Vertical Crop
+### 5x Vertical Crop (1080p only)
 
 **Note: this feature only works if your output resolution in your MiSTer.ini is set to a 1080p option!!** 
 
@@ -94,13 +97,13 @@ You will see just a few lines off the top and bottom get cut off. This is okay, 
 
 Now your `vert filter: scanlines - brighter.txt` option should have evenly spaced scanlines vertically, and the image will look a lot better.
 
-## Shadowmasks
+### Shadowmasks
 
 MiSTer FPGA also has another layer options available to use called `Shadowmasks`. These attempt to simulate the appearance of the grille or mask on an old CRT screen. There are lots of options, but we are just going to use personally one of the most versatile color shadowmasks for this tutorial, `Squished VGA Bright v2.txt`. This shadowmask attempts to resemble consumer computer monitors and some tv's which had red, green, and blue phosphors in a particular pattern. Here is a picture of the options after I've added this Shadowmask to the same game's video processing menu:
 
 [![MiSTer FPGA Shadowmasks / Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/squished-vga-bright-v2.png)](img/squished-vga-bright-v2.png){target=_blank}
 
-## Gamma
+### Gamma Curves
 
 Gamma is a bit of a tricky thing to explain. Basically, gamma on an old CRT is the relationship between voltage and brightness. Think of a graph, the x-axis is voltage and the y-axis is the "brightness" (more accurately called luminance). Modern televisions are (ideally) a totally straight line. Old CRT's have a curve. At medium voltage and brightness it is a lot less brightness than you'd expect. Sorta like this:
 
@@ -113,7 +116,7 @@ I will apply a very mild "Gamma Curve" called `gamma_113.txt` which is located i
 
 [![MiSTer FPGA Gamma curve explanation with Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/pure_gamma-gamma_113.png)](img/pure_gamma-gamma_113.png){target=_blank}
 
-### Video demonstrations
+## Video demonstrations
 
 Some people like a good video to see how it's done:
 ### 5x mode video
