@@ -54,8 +54,55 @@ This makes it so no matter what my `vsync_adjust` setting is in the upper sectio
 
 ## Filters (and scanlines)
 
-MiSTer has the capability to use upscaling filters and scanlines to help enhance the video output or even make it feel similar to a retro CRT television.
+MiSTer has the capability to use upscaling filters and scanlines to help enhance the video output or even make it feel similar to a retro CRT television. If you opened the NES core for the first time after setting the MiSter's video output to 1920x1080p and loaded up Duck Tales, then you should see something like this:
 
+![Duck Tales NES MiSTer FPGA 1920x1080@60 Default Video Output](img/default-video-nes.png)
+
+This can be tweaked a little to make it look a lot nicer to our eyes. First let's go into "Video Processing" in the secondary OSD/Menu (press F12 or the menu button you assigned earlier, and then right to see the secondary menu):
+
+![MiSTer FPGA Video Processing options selection](img/video-processing.png)
+
+When you select this it will show you a screen with a bunch of options. Don't get overwhelmed, it's fairly simple when you follow this guide, and you will understand how they work. I'll give you some recommended settings for most of the cores at the end of this tutorial which should be your go-to for now while you get used to things.
+
+By default "Video Filter:" is set to "NearNeighbour". This is a nearest neighbour filter. Basically, to turn 240p video into 1080p video requires these pixels to be made larger. Since 240 doesn't divide evenly into 1080 (1080 / 240 = 4.5), then some of these pixels won't be perfectly square. Nearest neighbour helps fool your eyes into making them seem more square than they actually are. It's filtering the video before it reaches your eyes to make it look better! 
+
+Select Video filter to change it so you can select a filters file. You will notice the text changes from `Video Filter:` to `Horz filter:`. Don't worry about this too much, for any normal rotation games, Horz is for your upscaling filters that soften or sharpen the image.
+
+Select the `<none>` below to browse. It should show you quite a few options. For now select `Interpolation (Medium).txt`. This is a filter which gives you some softer edges while still maintaining an illusion of square pixels.
+
+![MiSTer FPGA Horizontal Interpolation filter horz filter:](img/horz-filter.png)
+
+There we go, those pixels are a bit smoother now:
+
+![Mister FPGA Horizontal Interpolation Medium filter horz filter: NES duck tales](img/interpolation-medium.png)
+
+Another added benefit to interpolation is the scrolling looks smoother to the eye when compared to sharper filters like the default Nearest Neighbour setting.
+
+Now let's say you want some scanlines, sorta like what CRT's had and some emulators have an option for. Well to do that, we just need to setup the `Vert Filter:` option like we did the horz filter. You see, we will be filtering horizontal lines from top to bottom (vertically) on the video output. Inside `Vert Filter`'s `From File` option, select `Scanlines - Brighter.txt`. You should see something like this as your options:
+
+![MiSTer FPGA's Vertical filter Scanlines - Brighter vert filter](img/scanlines-brighter.png)
+
+## 5x Vertical Crop
+
+**Note: this feature only works if your output resolution in your MiSTer.ini is set to a 1080p option!!** 
+
+If you have been following along on your MiSTer, you might notice that the scanlines look darker occasionally. This is because 240p (this game's resolution) doesn't divide equally into 1080p (your resolution on your MiSTer). But 240 does divide into 1200 equally, 5 times 240 equals 1200. So to fix these scanlines looking uneven, we can stretch the image vertically to make all the pixels perfectly square. Go back into the regular core menu and select `Video & Audio`. There is an option called `Vertical Crop`. Not all cores have this, but the NES core does happen to, so it's a good example. Go ahead and select the `Vertical Crop` option to change `Disabled` to `(216p)5X`. 
+
+![MiSTer FPGA Vertical Crop 5x mode 1080p to 1200p 216p to 5x with overscan](img/5x-vertical-crop.png)
+
+You will see just a few lines off the top and bottom get cut off. This is okay, original CRT's cut off about the same amount from the top and bottom anyways. Most games don't have information missing at the edge of the top and bottom.
+
+Now your `vert filter: scanlines - brighter.txt` option should have evenly spaced scanlines vertically, and the image will look a lot better.
+
+## Shadowmasks
+
+MiSTer FPGA also has another layer options available to use called `Shadowmasks`. These attempt to simulate the appearance of the grille or mask on an old CRT screen. There are lots of options, but we are just going to use personally one of the most versatile color shadowmasks for this tutorial, `Squished VGA Bright v2.txt`. This shadowmask attempts to resemble consumer computer monitors and some tv's which had red, green, and blue phosphors in a particular pattern. Here is a picture of the options after I've added this Shadowmask to the same game's video processing menu:
+
+[![MiSTer FPGA Shadowmasks / Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/squished-vga-bright-v2.txt)](img/squished-vga-bright-v2.txt){target=_blank}
+
+## Gamma
+
+Gamma is a bit of a tricky thing to explain. Basically, gamma on an old CRT is the relationship between voltage and brightness. Think of a graph, the x-axis is voltage and the y-axis is the brightness. Modern televisions are (ideally) a totally straight line. Old CRT's have a curve. At lower voltage it is a lot less brightness than you'd expect. And at higher voltage, it's a lot higher than you'd expect. And typically, in the mid-range it's about the same or lower.
 
 
 
