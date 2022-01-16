@@ -2,7 +2,7 @@ MiSTer has support for a wide variety of input devices. It also has options to c
 
 ## What is supported?
 
-Generally speaking, any normal USB HID compatible input device is compatible. Keyboards, arcade spinners, usb adapters for original controllers such as the Raphnet and Daemonbite retro adapters, and even modern console controllers like the DualSense PS5 controller. There is even the Serial Native Accessory Connector, if you have one of the Analog or Digital IO add-on boards, which on supported cores allows you to use original hardware controllers, such as lightguns, which would normally only work with the original system and require zero lag to function.
+Generally speaking, any normal USB HID compatible input device should work. Keyboards, arcade spinners, usb adapters for original controllers such as the Raphnet and Daemonbite retro adapters, and even modern console controllers like the DualSense PS5 controller. There is even the Serial Native Accessory Connector, if you have one of the Analog or Digital IO add-on boards, which on supported cores allows you to use original hardware controllers, such as lightguns, which would normally only work with the original system and require zero lag to function.
 
 ## Serial Native Accessory Convertor (SNAC)
 
