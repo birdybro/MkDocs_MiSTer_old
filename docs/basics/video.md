@@ -107,7 +107,7 @@ Now your `vert filter: scanlines - brighter.txt` option should have evenly space
 
 ### Shadowmasks
 
-MiSTer FPGA also has another layer options available to use called `Shadowmasks`. These attempt to simulate the appearance of the grille or mask on an old CRT screen. There are lots of options, but we are just going to use personally one of the most versatile color shadowmasks for this tutorial, `Squished VGA Bright v2.txt`. This shadowmask attempts to resemble consumer computer monitors and some tv's which had red, green, and blue phosphors in a particular pattern. Here is a picture of the options after I've added this Shadowmask to the same game's video processing menu:
+MiSTer FPGA also has another layer options available to use called `Shadowmasks`. Shadow Masks are able to modify the red, green, blue color channels to create advanced effects, such as simulating the appearance of the grille or mask on an old CRT screen or the pixel layouts of old LCD handheld consoles. There are lots of options, but we are just going to use personally one of the most versatile color shadowmasks for this tutorial, `Squished VGA Bright v2.txt`. This shadowmask attempts to resemble consumer computer monitors and some tv's which had red, green, and blue phosphors in a particular pattern. Here is a picture of the options after I've added this Shadowmask to the same game's video processing menu:
 
 [![MiSTer FPGA Shadowmasks / Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/squished-vga-bright-v2.png)](img/squished-vga-bright-v2.png){target=_blank}
 
