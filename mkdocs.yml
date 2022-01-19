@@ -72,6 +72,7 @@ nav:
     - Bluetooth: basics/bluetooth.md
     - Hotkeys: basics/hotkey.md
     - Video Configuration: basics/video.md
+    - CD-based ROMs: basics/cd.md
 
   - Cores:
     - What Is a Core: cores/what.md
@@ -101,6 +102,8 @@ nav:
     - Cheat Engine: advanced/cheats.md
 
   - Developer Reference:
+    - HDL Principles: developer/principles.md
+    - Useful Links: developer/links.md
     - Core Configuration String: developer/conf_str.md
     - Good Luck!: developer/goodluck.md
 
