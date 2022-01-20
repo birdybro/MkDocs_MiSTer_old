@@ -102,7 +102,7 @@ nav:
     - Cheat Engine: advanced/cheats.md
 
   - Developer Reference:
-    - HDL Principles: developer/principles.md
+    - Tips and Guidelines: developer/principles.md
     - Useful Links: developer/links.md
     - Core Configuration String: developer/conf_str.md
     - Good Luck!: developer/goodluck.md
