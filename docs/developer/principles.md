@@ -1,4 +1,4 @@
-It is good to abide by some general programming principles when contributing to the MiSTer project. Keeping these good principles in mind will help you 
+Here's some tips and guidelines when contributing to the MiSTer project.
 
 ## Indent with tabs, not spaces
 
@@ -76,7 +76,7 @@ Both will compile, but it takes a little longer for our mind to parse on first g
 
 ## Naming things to be easily understood
 
-In [EEPROM_STM95](https://github.com/MiSTer-devel/Genesis_MiSTer/blob/b15cceff237ebd6cb269119d6ec6f3b1dcbb0a8e/rtl/EEPROM_STM95.sv#L13) in the Genesis core, this module's port instantiation uses `_n` to signify that the signal is "active low":
+In [EEPROM_STM95](https://github.com/MiSTer-devel/Genesis_MiSTer/blob/b15cceff237ebd6cb269119d6ec6f3b1dcbb0a8e/rtl/EEPROM_STM95.sv#L13){target=_blank} in the Genesis core, this module's port instantiation uses `_n` to signify that the signal is "active low":
 
 ```sv
 module STM95XXX
@@ -90,5 +90,17 @@ module STM95XXX
 ```
 
 It's also commented, but now you know after reading this that anytime a signal with `_n` is used, that is an active low signal, it doesn't need to be described as active low in a comment each time it is used from then on.
+
+## If you run out of DSP or Logic space accidentally
+
+If you run out of space in compilation, you might be accidentally implying your code to be put into DSP, which is very limited. You can specify that the compiler use logic instead by using the [multstyle](https://www.intel.com/content/www/us/en/programmable/quartushelp/17.0/index.htm#hdl/vlog/vlog_file_dir_multstyle.htm){target=_blank}:
+
+```sv
+(* multstyle = "logic" *) module myModule (
+	input clk
+)
+```
+
+This will force this module into logic space instead of it ever using DSP or block ram. Also you can force a module into DSP the same way with `(* multstyle = "dsp" *)`. The `multstyle` attribute can be used for Module declarations, variable declarations, and binary expressions.
 
 
