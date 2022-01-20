@@ -25,7 +25,7 @@ module playfield
 
 When instantiating this module, this dev added a comment to the end of all of her Inputs and Outputs. One shouldn't assume everyone else knows that `hclk` is `Horizontal clock phase 2` even if the name makes sense to yourself. Other good examples of good comments are separating sections of assignments or port instantiations by category, or explaining the "Why" behind a particularly unintuitive section of code.
 
-## Align ends, assignments, and more
+## Align ends, assignments, and proper indentation
 
 Try to keep similar elements in our code aligned for readability purposes, for example, in the [EEPROM_24C0x.sv](https://github.com/MiSTer-devel/NES_MiSTer/blob/8dddb6cc01a2a2854a444838e0cfe5a17338060f/rtl/EEPROM_24C0x.sv){target=_blank} file from NES_MiSTer, this:
 
@@ -72,6 +72,23 @@ always @(posedge clk) begin
 	end
 ```
 
-Both will compile, but it takes a little longer for our mind to parse on first glance.
+Both will compile, but it takes a little longer for our mind to parse on first glance. Aligning comments at the end of a line is also helpful in improving readability as shown in the `playfield` module example near the top of this page.
+
+## Naming things to be easily understood
+
+In [EEPROM_STM95](https://github.com/MiSTer-devel/Genesis_MiSTer/blob/b15cceff237ebd6cb269119d6ec6f3b1dcbb0a8e/rtl/EEPROM_STM95.sv#L13) in the Genesis core, this module's port instantiation uses `_n` to signify that the signal is "active low":
+
+```sv
+module STM95XXX
+(
+	//...
+	input         hold_n,        // Hold (active low)
+	input         cs_n,          // Chip Select (active low)
+	input         wp_n,          // Write Protect (active low)
+	//...
+);
+```
+
+It's also commented, but now you know after reading this that anytime a signal with `_n` is used, that is an active low signal, it doesn't need to be described as active low in a comment each time it is used from then on.
 
 
