@@ -21,11 +21,11 @@ Here's a simple table that shows you what options correlate to what video connec
 | S-Video*****          |      1     |      0     |     N/A    |      0     |          0         |
 | Composite*****        |      1     |      0     |     N/A    |      0     |          0         |
 
-* Scan-doubled = 2x resolution (e.g. 240p > 480p)
-** Upscaled resolution = video_mode
-*** External "direct video" (HDMI to VGA) adapter required - native resolution only (no upscaling or scan-doubling
-**** External "direct video" adapter requires modification to pass Sync on Green (SoG)
-***** External RGB to NTSC/PAL converter required
+\* Scan-doubled = 2x resolution (e.g. 240p > 480p)  
+\** Upscaled resolution = video_mode  
+\*** External "direct video" (HDMI to VGA) adapter required - native resolution only (no upscaling or scan-doubling  
+\**** External "direct video" adapter requires modification to pass Sync on Green (SoG)  
+\***** External RGB to NTSC/PAL converter required
 
 ## Analog IO Add-on board
 
