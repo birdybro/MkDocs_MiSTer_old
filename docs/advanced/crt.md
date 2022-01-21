@@ -2,7 +2,7 @@ There are a few different ways you can use a CRT display with the MiSTer. The tw
 
 ## Configuration Table
 
-Here's a simple table that shows you what options correlate to what video connection, to make it a bit easier to decide what you need in order to connect to your CRT, and what settings are required in the MiSTer.ini to get it to work.
+Here's a table that shows you what options correlate to what video connection, to make it a bit easier to decide what you need in order to connect to your CRT, and what settings are required in the MiSTer.ini to get it to work.
 
 |   Analog Video Out    | Ini: CSYNC | Ini: YPbPr | SoG Switch | VGA Scaler | Forced Scandoubler |
 | --------------------- | ---------- | ---------- | ---------- | ---------- | ------------------ |
