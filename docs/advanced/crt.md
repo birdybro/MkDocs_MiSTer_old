@@ -27,6 +27,8 @@ Here's a simple table that shows you what options correlate to what video connec
 \**** External "direct video" adapter requires modification to pass Sync on Green (SoG)  
 \***** External RGB to NTSC/PAL converter required
 
+Credit: Porkchop Express
+
 ## Analog IO Add-on board
 
 
