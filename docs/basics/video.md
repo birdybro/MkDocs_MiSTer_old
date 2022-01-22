@@ -2,7 +2,7 @@ Here's a breakdown of the basic video customization features on the MiSTer. You 
 
 ## MiSTer Ini Video Settings
 
-In the `MiSTer.ini` file there are lots of video setttings to mess with. We'll just focus on a couple here for now and you can dive deeper in the [Advanced - Video](../advanced/video.md){target=_blank} section.
+In the [MiSTer.ini](../advanced/global.md){target=_blank} file there are many video setttings to try. We'll just focus on a couple here for now and you can dive deeper in the [Advanced - Video](../advanced/video.md){target=_blank} section.
 
 First, you can edit the settings in the `MiSTer.ini` file with windows Notepad, Visual Studio Code, Notepad++. Pretty much any text editor will be fine. Alternatively you can run the `ini-settings.sh` script in the scripts folder, this has a simple interface to change options.
 
@@ -27,7 +27,7 @@ A bit of a ways down the .ini file there is a `video_mode` option. Above it the 
 ;13 - 2048x1536@60
 ```
 
-This tells you that `video_mode=0` will set you to 1280x720 resolution at 60hz. For most people they will probably want to use 1920x1080 resolutiono at 60hz, so my advice would be to change this to `video_mode=8`. In the `ini-settings.sh` script it tells you what option does what resolution, so just select the right one for your display.
+This tells you that `video_mode=0` will set you to 1280x720 resolution at 60hz. For most people they will probably want to use 1920x1080 resolutiono at 60hz, so my advice would be to change this to `video_mode=8`. You can also use the `ini-settings.sh` script, it will tell you what option selects which resolution, so just select the right one for your display.
 
 ### vsync_adjust
 
