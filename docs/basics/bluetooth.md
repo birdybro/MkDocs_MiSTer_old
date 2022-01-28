@@ -1,1 +1,16 @@
-Bluetooth adapter recommendations, caveats for compatibility, demonstrate how to pair via the built-in pairing system with the keyboard instead of the script (which currently isn't working well apparently).
+Bluetooth adapters and using controllers over bluetooth is supported on the MiSTer.
+
+## Compatible adapters
+
+Generally speaking, most bluetooth 4.0 adapters use one of two similar chips, the CSR8510 and the BCM20702, and these are compatible. Bluetooth 5.0 adapters are a little different, but many are compatible as well. Here is a list of a few known compatible adapters:
+
+* ASUS USB-BT500 (5.0)
+* Edimax BT-8500 (5.0)
+* ZEXMTE Long Range USB Bluetooth (5.0)
+* Ovker USB WiFi Bluetooth Adapter (4.2) (Labeled "Driver Free" in green)
+
+There are many more that work than just these. Please note that some hardware revisions may change the compatibility of even the adapters in this list, your results may vary. For the most part, most adapters seem to work fine.
+
+## How to pair your Bluetooth controller or Keyboard
+
+This is the easy part. Simply press the F11 key on a keyboard that is already connected to the MiSTer and the pairing menu will pop up. Put your controller into pairing mode and wait. The MiSTer should find it momentarily and connect to it. You may need to define your inputs for this new controller, even if it's been plugged directly into the MiSTer before as it is seen as a different controller over bluetooth.

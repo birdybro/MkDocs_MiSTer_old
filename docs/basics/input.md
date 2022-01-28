@@ -16,4 +16,4 @@ One of the cool things you can do is use it as an emulated lightgun with a point
 
 ![type:video](videos/mouse-lightgun.mp4)
 
-You can also use a mouse for a paddle
+You can also use a mouse for a paddle style controller if you'd like.

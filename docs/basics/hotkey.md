@@ -37,6 +37,3 @@ Here's a reference of the hotkeys you can use with the MiSTer. Hotkeys are usefu
 | ----- | --------- | ------------ |
 | ao486 | Win + F12 | Open the OSD |
 
-## Glossary
-
-OSD = On-Screen Display, the menu that comes up on the screen when you press the Menu button or F12.
