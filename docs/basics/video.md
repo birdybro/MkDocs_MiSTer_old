@@ -119,7 +119,7 @@ Gamma is a bit of a tricky thing to explain. Basically, gamma on an old CRT is t
 
 Now given that the MiSTer is outputting the linear example, the Gamma filters can restore a similar Gamma curve as you may have been used to with your old television. This is especially helpful because we have just applied a "brighter" scanline and a shadowmask (which added a mask of colors across the screen imitating a CRT's phosphors). If you've been following along with this tutorial so far, we're gonna play with Gamma just to see how it looks to your eyes. This is all personal preference. If it looks good to you, great. If someone else doesn't like it, well... tough! :)
 
-I will apply a very mild "Gamma Curve" called `gamma_113.txt` which is located in the `Pure_Gamma` folder when you select the gamma options. This gamma curve is allegedly supposed to get you close to a typical consumer CRT's gamma curve. Don't quote on me on that, I heard it from someone, somewhere, that one time...
+I will apply a very mild "Gamma Curve" called `gamma_113.txt` which is located in the `Pure_Gamma` folder when you select the gamma options. This gamma curve is allegedly supposed to get you close to a typical consumer CRT's gamma curve.
 
 [![MiSTer FPGA Gamma curve explanation with Shadow Masks Squished VGA Bright v2.txt 1200p 5x overscan to 1080p with scanlines - brighter.txt](img/pure_gamma-gamma_113.png)](img/pure_gamma-gamma_113.png){target=_blank}
 
