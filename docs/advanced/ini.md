@@ -48,10 +48,22 @@ The [MiSTer.ini configuration file](https://github.com/MiSTer-devel/Main_MiSTer/
 
 `mouse_throttle` - Can be used to change the speed of your mouse (1-100). Good for very sensitive mice.
 
+`gamepad_defaults` - 
+
+`bt_auto_disconnect` - Amount of minutes of inactivity before Bluetooth disconnects automatically. Default is 0 (off).
+
+`bt_reset_before_pair` - Resets bluetooth adapter before pairing dialog. If you enable this some input devices may get shutdown after a reset.
+
 ## Menu Settings
 
 `rbf_hide_datecode` - Hides the date codes from the core names in the core selection menu.
 
-`osd_timeout` - 
+`osd_timeout` - The length of time the OSD is displayed when brought up and no inputs have been pressed. 0 - never timeout, and the range of values are 5-3600 seconds.
+
+`osd_rotate` - Rotate the OSD. Useful for when you rotate your monitor for certain Arcade cores. 0 - no rotation, 1 - rotate right (+90°), and 2 - rotate left (-90°).
+
+## Debug Settings
+
+`log_file_entry` - Writes filename under the curse in browser for use by external integrations.
 
 
