@@ -36,7 +36,7 @@ Another important option is `vsync_adjust`. Most modern displays work fine at 60
 ```ini
 vsync_adjust=0
 ```
-This matches the refresh rate of your monitor (e.g. 60hz) and has about 2-3 frames of lag. Video output can be a little jittery.
+This matches the refresh rate of your monitor (e.g. 60hz) and has about 2-3 frames of lag. Video output can be a little jittery as the core is still running at it's native rate, which isn't exactly 60hz.
 ```ini
 vsync_adjust=1
 ```
