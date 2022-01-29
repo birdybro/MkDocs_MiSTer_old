@@ -11,7 +11,7 @@ Here's a reference of the hotkeys you can use with the MiSTer. Hotkeys are usefu
 | LeftCtrl + LeftAlt + RightAlt             | Press "User" button, usually resets current core, same function as IO board button |
 | LeftShift + LeftCtrl + LeftAlt + RightAlt | Full Reboot/Reset, same as IO add-on board Reset button                            |
 | Controller: Button + OSD button           | Turn on/off turbo/autofire for the pressed button                                  |
-| Controller: Direction + OSD Button        | Set rate of turbo/autofire in ms                                                   |
+| Controller: Direction + OSD Button        | Set rate of turbo/autofire in milliseconds (ms)                                    |
 
 ## With the OSD open, in any core
 
