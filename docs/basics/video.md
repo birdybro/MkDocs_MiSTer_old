@@ -40,11 +40,11 @@ This matches the refresh rate of your monitor (e.g. 60hz) and has about 2-3 fram
 ```ini
 vsync_adjust=1
 ```
-This makes the video output at exactly the frame rate of the game (e.g. 60.6hz). It has 1 frame of lag, but it is less compatible with modern televisions. Video output is very smooth.
+This makes the video output at exactly the frame rate of the game (e.g. 60.6hz). It has 1-2 frames of lag, but it is less compatible with modern televisions. Video output is very smooth.
 ```ini
 vsync_adjust=2
 ```
-This makes the video output draw to the screen as fast as possible (sorta), and can result in sub-frame lag consistently. However this is the least compatible mode. The video output is the most smooth.
+This makes the video output draw to the screen as fast as possible (sorta), and can result in sub-frame lag consistently (independent of your controller and display's built-in lag). However this is the least compatible mode. The video output is the most smooth.
 
 Generally the rule of thumb is, if you want the smoothest video output and lowest lag then start at `vsync_adjust=2`, and if a core doesn't work that you want to play on, dial it back to 1 or 0 to see if the compatibility is resolved. Your results may vary depending on the display you are connected to.
 
