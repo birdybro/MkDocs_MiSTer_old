@@ -22,6 +22,7 @@ Here's a reference of the hotkeys you can use with the MiSTer. Hotkeys are usefu
 | Left                       | Go to information screen (shows currently selected INI file and volume) |
 | Right                      | System screen (change core, set filters, gamma, etc...)                 |
 | Controller: Back + R/L/D/U | Select Alternate INI file if defined (Default/Alt1/Alt2/Alt3)           |
+| Controller: Select         | Expands submenus in the OSD when highlighted                            |
 
 ## In the Main Menu core only
 
