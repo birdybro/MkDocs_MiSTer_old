@@ -18,9 +18,12 @@ There are two methods of region detection.
 
 1. Header: This method detects a character in the header to determine if the game was intended to be played on a Japanese, European, or American version of the console. This method is default and preferred as it is compatible with the entire commercial lineup. This option uses a region priority setting for multi-region games which had "JUE" in the header. Whatever the first region is, will be the region set on load of a multi-region game.
 
-2. File Ext: This method changes the region according to the filename extension of the rom. BIN = Japanese, GEN = America, MD = Europe.
+2. File Ext: This method changes the region according to the filename extension of the rom. 
+    * BIN = Japanese
+    * GEN = America
+    * MD = Europe
 
-There is also a re
+There is also a region priority list for multi-region games that had multiple region codes in the header. This is useful if you want to specify a certain region to default to in order of first priority to last (e.g. US>JP>EU will try to load multi-region games in US first, then it will load as JP if no US region code is present, then EU if neither is present).
 
 ## Corrected Aspect Ratio
 ![type:video](videos/genesis-car.mp4)
