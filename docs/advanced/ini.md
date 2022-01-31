@@ -14,7 +14,7 @@ The [MiSTer.ini configuration file](https://github.com/MiSTer-devel/Main_MiSTer/
 
 `video_info` - Number of seconds that it will display the video info in the top left corner of the screen whenever the resolution or frequency has changed.
 
-`vsync_adjust` - Adjusts the buffer settings for the frames sent to the display. For more details on how this works, see the [Video Configuration - vsync_adjust section](../basics/video/#vsync_adjust){target=_blank}. Essentially, the values of `0-2` are in order of most compatible+highest lag to least compatible+lowest lag.
+`vsync_adjust` - Adjusts the buffer settings for the frames sent to the display. For more details on how this works, see the [Video Configuration - vsync_adjust section](../basics/video#vsync_adjust){target=_blank}. Essentially, the values of `0-2` are in order of most compatible+highest lag to least compatible+lowest lag.
 
 `refresh_min` - Forces a minimum refresh rate.
 
