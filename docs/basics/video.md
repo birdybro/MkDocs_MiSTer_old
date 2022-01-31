@@ -31,16 +31,16 @@ This tells you that `video_mode=0` will set you to 1280x720 resolution at 60hz. 
 
 ### vsync_adjust
 
-Another important option is `vsync_adjust`. Most modern displays work fine at 60hz, but some games run at 60.6 hz (like Donkey Kong for the arcades) which is a "non-standard refresh rate". Therefore, MiSTer has what is called a "framebuffer". The game is still running at 60.6hz but the frames are sent at 60hz. So occasionally there is a little "stutter" on the screen to make up for the frames going too fast and being adjusted. To use a framebuffer adds lag, on the MiSTer it is typically about 2-3 frames of lag if you use the most compatible 60hz only option. here's a list of the options and what they do.
+Another important option is `vsync_adjust`. Most modern displays work fine at 60hz, but some games run at 60.6 hz (like Donkey Kong for the arcades) which is a "non-standard refresh rate". Therefore, MiSTer has what is called a "framebuffer". The game is still running at 60.6hz but the frames are sent at 60hz. So occasionally there is a little "stutter" on the screen to make up for the frames going too fast and being adjusted. To use a framebuffer adds a minimal amount of lag. Here's a list of the options and what they do.
 
 ```ini
 vsync_adjust=0
 ```
-This matches the refresh rate of your monitor (e.g. 60hz) and has about 2-3 frames of lag. Video output can be a little jittery as the core is still running at it's native rate, which isn't exactly 60hz.
+This matches the refresh rate of your monitor (e.g. 60hz) and has about 1-2 frames of lag. Video output can be a little jittery as the core is still running at it's native rate, which isn't exactly 60hz.
 ```ini
 vsync_adjust=1
 ```
-This makes the video output at exactly the frame rate of the game (e.g. 60.6hz). It has 1-2 frames of lag, but it is less compatible with modern televisions. Video output is very smooth.
+This makes the video output at exactly the frame rate of the game (e.g. 60.6hz). It has 1 frame of lag, but it is less compatible with modern televisions. Video output is very smooth.
 ```ini
 vsync_adjust=2
 ```
