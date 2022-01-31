@@ -36,11 +36,11 @@ Another important option is `vsync_adjust`. Most modern displays work fine at 60
 ```ini
 vsync_adjust=0
 ```
-This matches the refresh rate of your monitor (e.g. 60hz) and has about 2-3 frames of lag. Video output can be a little jittery as the core is still running at it's native rate, which isn't exactly 60hz.
+This matches the refresh rate of your monitor (e.g. 60hz) and has about 1-2 frames of lag. Video output can be a little jittery as the core is still running at it's native rate, which isn't exactly 60hz.
 ```ini
 vsync_adjust=1
 ```
-This makes the video output at exactly the frame rate of the game (e.g. 60.6hz). It has 1-2 frames of lag, but it is less compatible with modern televisions. Video output is very smooth.
+This makes the video output at exactly the frame rate of the game (e.g. 60.6hz). It has 1 frame of lag, but it is less compatible with modern televisions. Video output is very smooth.
 ```ini
 vsync_adjust=2
 ```
