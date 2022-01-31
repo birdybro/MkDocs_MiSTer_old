@@ -31,7 +31,7 @@ This tells you that `video_mode=0` will set you to 1280x720 resolution at 60hz. 
 
 ### vsync_adjust
 
-Another important option is `vsync_adjust`. Most modern displays work fine at 60hz, but some games run at 60.6 hz (like Donkey Kong for the arcades) which is a "non-standard refresh rate". Therefore, MiSTer has what is called a "framebuffer". The game is still running at 60.6hz but the frames are sent at 60hz. So occasionally there is a little "stutter" on the screen to make up for the frames going too fast and being adjusted. To use a framebuffer adds lag, on the MiSTer it is typically about 2-3 frames of lag if you use the most compatible 60hz only option. here's a list of the options and what they do.
+Another important option is `vsync_adjust`. Most modern displays work fine at 60hz, but some games run at 60.6 hz (like Donkey Kong for the arcades) which is a "non-standard refresh rate". Therefore, MiSTer has what is called a "framebuffer". The game is still running at 60.6hz but the frames are sent at 60hz. So occasionally there is a little "stutter" on the screen to make up for the frames going too fast and being adjusted. To use a framebuffer adds a minimal amount of lag. Here's a list of the options and what they do.
 
 ```ini
 vsync_adjust=0
