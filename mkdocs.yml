@@ -92,7 +92,6 @@ nav:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
       - Computer Core Networking: advanced/computer.md
     - Video:
-      - Video Filters: advanced/video.md
       - Using Your CRT With MiSTer: advanced/crt.md
     - Audio Filters: advanced/audio.md
     - INI Settings: advanced/ini.md
