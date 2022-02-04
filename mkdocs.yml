@@ -86,6 +86,7 @@ nav:
     - Console Cores: cores/console.md
     - Computer Cores: cores/computer.md
     - Arcade Cores: cores/arcade.md
+    - Core Paths: cores/paths.md
 
   - Tweaking and Advanced Configuration:
     - Networking:
