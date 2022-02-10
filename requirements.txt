@@ -1,0 +1,7 @@
+# Dependencies
+mkdocs
+mkdocs-material
+mkdocs-minify-plugin
+mkdocs-redirects
+mkdocs-video
+mkdocs-git-revision-date-localized-plugin
