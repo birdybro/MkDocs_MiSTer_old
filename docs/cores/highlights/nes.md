@@ -10,4 +10,4 @@ advantages over typical NES og hardware and emulators should really be emphasize
 ![type:video](videos/fdsbios.mp4)
 
 ## palettes example
-![type:vide](videos/palettes.mp4)
+![type:video](videos/palettes.mp4)
