@@ -67,6 +67,7 @@ nav:
     - Play a Game: setup/play.md
 
   - The Basics:
+    - FAQ: basics/faq.md
     - WiFi: basics/wifi.md
     - Controllers: basics/input.md
     - Bluetooth: basics/bluetooth.md
@@ -94,10 +95,12 @@ nav:
       - Computer Core Networking: advanced/computer.md
     - Video:
       - Using Your CRT With MiSTer: advanced/crt.md
+      - Direct Video Adapter: advanced/directvideo.md
     - Audio Filters: advanced/audio.md
     - INI Settings: advanced/ini.md
     - Screenshots: advanced/screenshots.md
     - Cheat Engine: advanced/cheats.md
+    - Lag Explained: advanced/lag.md
 
   - Developer Reference:
     - Tips and Guidelines: developer/principles.md
