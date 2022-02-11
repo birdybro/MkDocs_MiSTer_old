@@ -48,6 +48,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: MiSTer-FPGA-PDF
-          path: |
-            pdf
-            !pdf/**/*.pdf
+          path: /home/runner/work/MkDocs_MiSTer/MkDocs_MiSTer/site/MiSTerFPGA.pdf
