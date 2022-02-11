@@ -14,9 +14,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Update Package Repositories
+        run: sudo apt-get update
+
       - name: Install Weasyprint Prequisites
         run: |
-          apt install \
+          sudo apt install \
           python3-pip \
           python3-cffi \
           python3-brotli \
