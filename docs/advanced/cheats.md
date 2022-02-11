@@ -14,7 +14,7 @@ If the .zip cheat file does not match the ROM name, the cheat engine will automa
 
 Since CD-ROM images are large, the MiSTer purposefully doesn't do CRC32 hash checks for CD images. You will need to place the cheats you want into the same folder as your cue/bin or CHD file, in order to use cheats with it.
 
-Individual cheats are in .gg format and should be stored in zip files. Packs of codes can be downloaded from https://gamehacking.org/ by selecting the MiSTer format and choosing to save all codes for a given game.
+Individual cheats are in .gg format and should be stored in zip files.
 
 ## Making your own codes
 
@@ -29,4 +29,5 @@ The first four bytes are little-endian `0x00000001` for "compare enabled", the s
 For cheats with multiple codes, simply add another 16 bytes at the end of the file in the same format as the first.
 
 You can decode game genie codes into these values with tools like this:
-https://gamehacking.org/system/nes
+
+[https://gamehacking.org/system/nes](https://gamehacking.org/system/nes){target=_blank}

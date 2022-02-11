@@ -99,6 +99,7 @@ nav:
       - Using Your CRT With MiSTer: advanced/crt.md
       - Direct Video Adapter: advanced/directvideo.md
     - Audio Filters: advanced/audio.md
+    - MIDI: advanced/midi.md
     - INI Settings: advanced/ini.md
     - Screenshots: advanced/screenshots.md
     - Cheat Engine: advanced/cheats.md
