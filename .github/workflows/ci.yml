@@ -14,6 +14,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install Weasyprint Prequisites
+        run: |
+          apt install \
+          python3-pip \
+          python3-cffi \
+          python3-brotli \
+          libpango-1.0-0 \
+          libharfbuzz0b \
+          libpangoft2-1.0-0
+
       - name: Setup Python runtime
         uses: actions/setup-python@v2
         with:
@@ -22,12 +32,14 @@ jobs:
       - name: Install Python Dependencies
         run: |
           pip install \
+          weasyprint \
           mkdocs \
           mkdocs-material \
           mkdocs-minify-plugin \
           mkdocs-redirects \
           mkdocs-video \
-          mkdocs-git-revision-date-localized-plugin
+          mkdocs-git-revision-date-localized-plugin \
+          mkdocs-with-pdf
 
       - name: Deploy Documentation
         run: |
