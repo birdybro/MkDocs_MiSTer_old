@@ -2,7 +2,7 @@ Here's a breakdown of the basic video customization features on the MiSTer. You 
 
 ## MiSTer Ini Video Settings
 
-In the [MiSTer.ini](../advanced/ini.md){target=_blank} file there are many video setttings to try. We'll just focus on a couple here for now and you can dive deeper in the [Advanced - Video](../advanced/video.md){target=_blank} section.
+In the [MiSTer.ini](../advanced/ini.md){target=_blank} file there are many video setttings to try. We'll just focus on a couple here for now and you can dive deeper into things like CRT usage in the [Advanced - CRT](../advanced/crt.md){target=_blank} section.
 
 First, you can edit the settings in the `MiSTer.ini` file with windows Notepad, Visual Studio Code, Notepad++. Pretty much any text editor will be fine. Alternatively you can run the `ini-settings.sh` script in the scripts folder, this has a simple interface to change options.
 

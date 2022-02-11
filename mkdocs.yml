@@ -41,7 +41,7 @@ plugins:
   - git-revision-date-localized
   - with-pdf:
       copyright: Copyright &copy; 2022 MiSTer FPGA
-      output_path: MiSTerFPGA.pdf
+      output_path: ../pdf/MiSTerFPGA.pdf
 
 # Customization
 extra:
@@ -109,7 +109,6 @@ nav:
     - Tips and Guidelines: developer/principles.md
     - Useful Links: developer/links.md
     - Core Configuration String: developer/conf_str.md
-    - Good Luck!: developer/goodluck.md
 
 markdown_extensions:
   - pymdownx.highlight:
