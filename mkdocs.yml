@@ -74,6 +74,7 @@ nav:
     - Hotkeys: basics/hotkey.md
     - Video Configuration: basics/video.md
     - CD-based ROMs: basics/cd.md
+    - Links: basics/links.md
 
   - Cores:
     - What Is a Core: cores/what.md
@@ -90,6 +91,7 @@ nav:
     - Core Paths: cores/paths.md
 
   - Tweaking and Advanced Configuration:
+    - Troubleshooting: advanced/troubleshooting.md
     - Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
       - Computer Core Networking: advanced/computer.md
@@ -101,11 +103,15 @@ nav:
     - Screenshots: advanced/screenshots.md
     - Cheat Engine: advanced/cheats.md
     - Lag Explained: advanced/lag.md
+    - Console Connection: advanced/console.md
 
   - Developer Reference:
+    - Arcade ROMS and MRA Files: developer/mra.md
     - Tips and Guidelines: developer/principles.md
     - Useful Links: developer/links.md
     - Core Configuration String: developer/conf_str.md
+
+
 
 markdown_extensions:
   - pymdownx.highlight:

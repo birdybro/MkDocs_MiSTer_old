@@ -30,7 +30,7 @@ When using HDMI output the image must be scaled up to fit the higher resolutions
 
 In addition your own television or monitor may introduce more latency, but this varies by device and no definite number can be given on that here. 
 
-In summary, if lag is critical to you, **it's best to play on a CRT using a recommended and widely-tested USB controller.** Some users have tested and ranked USB controllers by performance; you can see their results [here](https://github.com/eniva/MisSTer_Guides/wiki/USB-Controllers-Performance-Ranking){target=_blank}. An alternate thorough list of tested controllers by misteraddons is also available [here](https://rpubs.com/misteraddons/inputlatency){target=_blank}
+In summary, if lag is critical to you, **it's best to play on a CRT using a recommended and widely-tested USB controller.** Some users have tested and ranked USB controllers by performance; you can see their results [here](https://github.com/eniva/MisSTer_Guides/wiki/USB-Controllers-Performance-Ranking){target=_blank}. An alternate thorough list of tested controllers by misteraddons is also available [here](https://rpubs.com/misteraddons/inputlatency){target=_blank}.
 
 Do keep in mind, however, that even over HDMI MiSTer is capable of providing a better experience than many other devices.
 
