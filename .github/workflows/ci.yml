@@ -47,3 +47,9 @@ jobs:
       - name: Deploy Documentation
         run: |
           mkdocs gh-deploy --force
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: MiSTerFPGAPDF
+          path: MiSTerFPGA.pdf
