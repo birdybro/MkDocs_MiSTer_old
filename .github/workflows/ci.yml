@@ -14,15 +14,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Update Package Repositories
-        run: sudo apt-get update
-
-      - name: Install Weasyprint Prequisites
-        run: |
-          sudo apt-get install \
-          python3-cffi \
-          python3-brotli \
-
       - name: Setup Python runtime
         uses: actions/setup-python@v2
         with:
@@ -31,21 +22,13 @@ jobs:
       - name: Install Python Dependencies
         run: |
           pip install \
-          weasyprint \
           mkdocs \
           mkdocs-material \
           mkdocs-minify-plugin \
           mkdocs-redirects \
           mkdocs-video \
-          mkdocs-git-revision-date-localized-plugin \
-          mkdocs-with-pdf
+          mkdocs-git-revision-date-localized-plugin
 
       - name: Deploy Documentation
         run: |
           mkdocs gh-deploy --force
-
-      - name: Upload PDF
-        uses: actions/upload-artifact@v2
-        with:
-          name: MiSTer-FPGA-PDF
-          path: /home/runner/work/MkDocs_MiSTer/MkDocs_MiSTer/site/MiSTerFPGA.pdf

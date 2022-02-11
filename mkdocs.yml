@@ -39,9 +39,6 @@ plugins:
       minify_html: true
   - mkdocs-video
   - git-revision-date-localized
-  - with-pdf:
-      copyright: Copyright &copy; 2022 MiSTer FPGA
-      output_path: MiSTerFPGA.pdf
 
 # Customization
 extra:
