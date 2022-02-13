@@ -16,7 +16,7 @@ Verify that COM port settings are correct:
 
 Here's a quick video for connections on Windows:
 
-![type:video](videos/console.mp4)
+![type:video](videos/console-connection.mp4)
 
 ## Linux Connections
 
