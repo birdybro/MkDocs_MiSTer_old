@@ -1,5 +1,5 @@
 site_name: MiSTer FPGA Documentation
-site_url: https://github.com/birdybro/MkDocs_MiSTer/
+site_url: https://github.com/birdybro/MkDocs_MiSTer
 site_author: Kevin Coleman
 site_description: >-
   MiSTer FPGA is an open project that aims to recreate various
@@ -35,14 +35,15 @@ plugins:
 # Explicitly call out search ahead of time, because if you use other plugins this has to be done.
   - search:
       lang: en
-  - minify:
-      minify_html: true
+  - rss
   - mkdocs-video
   - git-revision-date-localized
+  - minify:
+      minify_html: true
 
 # Customization
 extra:
-  homepage: https://docs.misterfpga.org
+  homepage: https://github.com/birdybro/MkDocs_MiSTer
 # Placeholder for analytics configuration, modify value and uncomment when ready
   # analytics:
   #   provider: google
