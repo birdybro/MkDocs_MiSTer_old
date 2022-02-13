@@ -14,6 +14,10 @@ Verify that COM port settings are correct:
 * Parity - none
 * Flow control - none
 
+Here's a quick video for connections on Windows:
+
+![type:video](videos/console.mp4)
+
 ## Linux Connections
 
 1. Be sure to be a member of the **dialout** group.
