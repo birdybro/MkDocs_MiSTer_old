@@ -35,7 +35,8 @@ plugins:
 # Explicitly call out search ahead of time, because if you use other plugins this has to be done.
   - search:
       lang: en
-  - rss
+  - rss:
+      image: assets/mister_kun_bw.svg
   - mkdocs-video
   - git-revision-date-localized
   - minify:
