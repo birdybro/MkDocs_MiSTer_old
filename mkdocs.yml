@@ -14,6 +14,7 @@ copyright: Copyright &copy; 2022 MiSTer FPGA
 
 theme:
   palette:
+    # Currently only dark color scheme supported, it is modified in overrides folder
     - scheme: slate 
   name: material
   favicon: assets/favicon.ico
@@ -22,30 +23,38 @@ theme:
     text: Roboto
     code: Source Code Pro
   features:
-  # Highlight search terms when user searches for things
+    # Highlight search terms when user searches for things
     - search.highlight
-  # Offer most likely search result as a suggestion
+    # Offer most likely search result as a suggestion
     - search.suggest
-  # Update url with the active anchor as highlighted in ToC
+    # Update url with the active anchor as highlighted in ToC
     - navigation.tracking
-  # Future use for announcement hook to put latest news here, like latest core updates, etc...
+  # Folder for css and page overrides
   custom_dir: overrides
   
 plugins:
 # Explicitly call out search ahead of time, because if you use other plugins this has to be done.
   - search:
+    # Only English for now
       lang: en
+  # mkdocs-rss-plugin
+  # https://birdybro.github.io/MkDocs_MiSTer/feed_rss_updated.xml
+  # https://birdybro.github.io/MkDocs_MiSTer/feed_rss_created.xml
   - rss:
       image: assets/mister_kun_bw.svg
+  # Permits the use of embedded videos
   - mkdocs-video
+  # Adds date/time stamp to page when updated according to git history.
   - git-revision-date-localized
+  # Makes things load faster at the cost of a little extra build time
   - minify:
       minify_html: true
 
 # Customization
 extra:
+  # Subject to change later when incorporated into the project
   homepage: https://birdybro.github.io/MkDocs_MiSTer/
-# Placeholder for analytics configuration, modify value and uncomment when ready
+  # Placeholder for analytics configuration, modify value and uncomment when ready
   # analytics:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY
@@ -58,8 +67,10 @@ extra:
       link: https://github.com/MiSTer-devel/
     
 nav:
+  # Only the logo and brief summary of what the project is about
   - Home: index.md
 
+  # Setup section is to remain very stable and simple
   - First-time Setup:
     - Requirements: setup/requirements.md
     - Setup MicroSD Card: setup/software.md
@@ -68,6 +79,7 @@ nav:
     - Transferring Games: setup/games.md
     - Play a Game: setup/play.md
 
+  # 
   - The Basics:
     - FAQ: basics/faq.md
     - WiFi: basics/wifi.md
@@ -78,8 +90,10 @@ nav:
     - CD-based ROMs: basics/cd.md
     - Links: basics/links.md
 
+  # General core information, not a full replacement for the core Readme's however
   - Cores:
     - What Is a Core: cores/what.md
+    # Just a good place to show off special features of some cores, to get people started.
     - Core Highlights:
       - SNES: cores/highlights/snes.md
       - NES: cores/highlights/nes.md
@@ -92,6 +106,7 @@ nav:
     - Arcade Cores: cores/arcade.md
     - Core Paths: cores/paths.md
 
+  # More advanced configuration options. Anything not basic or not simple essentials, dump here.
   - Advanced Configuration:
     - Troubleshooting: advanced/troubleshooting.md
     - Networking:
@@ -109,26 +124,34 @@ nav:
     - Lag Explained: advanced/lag.md
     - Console Connection: advanced/console.md
 
+  # Developer reference. This is going to mostly mirror what is up on Github wiki already.
   - Developer Reference:
+    - Core Configuration String: developer/conf_str.md
     - Arcade ROMS and MRA Files: developer/mra.md
+    - Useful Modules: developer/modules.md
     - Debugging:
       - USB Blaster: developer/usb-blaster.md
-    - Tips and Guidelines: developer/principles.md
-    - Useful Links: developer/links.md
-    - Core Configuration String: developer/conf_str.md
+      - Verilator: developer/verilator.md
     - Compiling:
       - Linux Kernel: developer/kernel.md
       - Main MiSTer Binary: developer/main.md
       - Bootloader: developer/bootloader.md
+    - Useful Links: developer/links.md
+    - Tips and Guidelines: developer/principles.md
 
 
 
 markdown_extensions:
+  # https://facelessuser.github.io/pymdown-extensions/extensions/highlight/
   - pymdownx.highlight:
       anchor_linenums: true
+  # https://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/
   - pymdownx.inlinehilite
+  # https://facelessuser.github.io/pymdown-extensions/extensions/snippets/
   - pymdownx.snippets
+  # https://facelessuser.github.io/pymdown-extensions/extensions/superfences/
   - pymdownx.superfences
+  # https://squidfunk.github.io/mkdocs-material/reference/images/
   - attr_list
 
 extra_css:
