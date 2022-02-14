@@ -92,7 +92,7 @@ nav:
     - Arcade Cores: cores/arcade.md
     - Core Paths: cores/paths.md
 
-  - Tweaking and Advanced Configuration:
+  - Advanced Configuration:
     - Troubleshooting: advanced/troubleshooting.md
     - Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
@@ -114,6 +114,10 @@ nav:
     - Tips and Guidelines: developer/principles.md
     - Useful Links: developer/links.md
     - Core Configuration String: developer/conf_str.md
+    - Compiling:
+      - Linux Kernel: developer/kernel.md
+      - Main MiSTer Binary: developer/main.md
+      - Bootloader: developer/bootloader.md
 
 
 

@@ -1,0 +1,1 @@
+https://github.com/MiSTer-devel/Main_MiSTer/wiki/Compiling-the-Linux-kernel-for-MiSTer
