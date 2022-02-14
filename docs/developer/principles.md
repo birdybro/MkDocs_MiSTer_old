@@ -102,5 +102,3 @@ If you run out of space in compilation, you might be accidentally implying your 
 ```
 
 This will force this module into logic space instead of it ever using DSP or block ram. Also you can force a module into DSP the same way with `(* multstyle = "dsp" *)`. The `multstyle` attribute can be used for Module declarations, variable declarations, and binary expressions.
-
-

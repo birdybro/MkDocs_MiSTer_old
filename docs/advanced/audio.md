@@ -2,9 +2,5 @@ The MiSTer has audio filters that you can use to make the audio sound less harsh
 
 ## Types of Filters
 
-
-
 ## Audio Filtering Example Video
 ![type:video](videos/sound-filters.mp4)
-
-

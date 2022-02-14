@@ -7,4 +7,3 @@ If you are unable to wget as instructed above, this might be because you are mis
 3. Type `wget --no-check-certificate https://curl.haxx.se/ca/cacert.pem` and press enter
 
 Assuming it downloaded correctly, you can _now_ use wget as nature intended!
-

@@ -65,5 +65,3 @@ The [MiSTer.ini configuration file](https://github.com/MiSTer-devel/Main_MiSTer/
 ## Debug Settings
 
 `log_file_entry` - Writes filename under the curse in browser for use by external integrations.
-
-

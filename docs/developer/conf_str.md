@@ -109,4 +109,3 @@ With "jp" mapping:
 * the convention is to consider the physical location of each button
 * For a Genesis 3-button controller that has A, B, C as buttons, mapping would be "SNES Y, SNES B, SNES A"
 * This is because YBA on a SNES gamepad are the lower 3 buttons of the controller
-

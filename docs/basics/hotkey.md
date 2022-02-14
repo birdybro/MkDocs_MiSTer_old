@@ -37,4 +37,3 @@ Here's a reference of the hotkeys you can use with the MiSTer. Hotkeys are usefu
 | Core  | Hotkey    | Description  |
 | ----- | --------- | ------------ |
 | ao486 | Win + F12 | Open the OSD |
-

@@ -31,6 +31,4 @@ Credit: Porkchop Express
 
 ## Analog IO Add-on board
 
-
-
 ## Direct Video Adapter

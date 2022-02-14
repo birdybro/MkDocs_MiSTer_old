@@ -48,5 +48,3 @@ list of features
 readme section has to explain header detection first, really important, tons of users have issues with this
 
 add some caveats for known ongoing bugs in some games (micro machines, eeproms, etc...) to alleviate concerns and unnecessary ticket generation, also helps with searches internally and externally.
-
-

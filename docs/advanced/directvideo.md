@@ -59,4 +59,3 @@ Also, most cheap DACs, like the ones based on the chip AG6200, don't produce Ful
 - Full Range (0-255): `hdmi_limited=0`.
 - Limited Range (16-235): `hdmi_limited=1`.
 - Limited Range common DAC variant (16-255): `hdmi_limited=2`.
-

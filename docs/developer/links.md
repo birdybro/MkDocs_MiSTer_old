@@ -29,4 +29,3 @@ Here's some useful links for experienced and new developers:
 ## General Development Resources
 
 [Various Licenses and Comments about Them](https://www.gnu.org/licenses/license-list.html){target=_blank}
-
