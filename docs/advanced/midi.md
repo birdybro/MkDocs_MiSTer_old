@@ -59,3 +59,6 @@ QUIET    - this option suppresses MIDI debug output.
 * Creative EMU XMIDI (Known to mangle SYSEX messages)
 * Roland UM-ONE
 * M-Audio Midisport Uno
+
+## MT32-pi Video Example
+![type:video](videos/mt32-pi.mp4)

@@ -1,11 +1,10 @@
-Tour of audio options:
+The MiSTer has audio filters that you can use to make the audio sound less harsh and balanced to your ears. Some old game systems were not made for raw digital output, they had analog audio filters in place before the sound reached the speakers and your ears. These filters are generated using mathematical formulas to represent real common filters used in electronics. You can find all of the filters in the [Filters_MiSTer Github Repository](https://github.com/MiSTer-devel/Filters_MiSTer){target=_blank}.
 
-* User filters
-* Core options eg Genesis and C64.
-* Brief explanation of aliasing and 44.1kHz --> 48kHz or 96kHz
+## Types of Filters
 
-## sound filtering example video
+
+
+## Audio Filtering Example Video
 ![type:video](videos/sound-filters.mp4)
 
-## mt32-pi example
-![type:video](videos/mt32-pi.mp4)
+
