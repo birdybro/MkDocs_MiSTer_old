@@ -10,6 +10,10 @@ Try your best to follow along with the general structure of folders (categories)
 
 It's very easy to contribute, just fork this repo, make your changes (such as making a new markdown file or editing one) and follow normal markdown syntax, commit changes to your fork, submit your pull request, and we will review it to see if it's suitable to merge.
 
+## Useful resources
+
+https://www.markdownguide.org/tools/mkdocs/
+
 ## Style guide
 
 Any internally facing links must be relative links. `./docs` is the implicit root folder, so if you want to link to the assets folder you just need to use `/assets/` and type in the file that you want to link to in there.
@@ -37,16 +41,9 @@ To link to another doc with a specific sub-url:
 
 Make sure you update [python 3](https://www.python.org/downloads/) and [update pip](https://pip.pypa.io/en/stable/installation/).
 
-`cd` into the root folder of this repo
+`cd` into the root folder of this repo and install these modules:
 
-```
-pip install mkdocs
-pip install mkdocs-material
-pip install mkdocs-minify-plugin
-pip install mkdocs-redirects
-pip install mkdocs-video
-pip install mkdocs-git-revision-date-localized-plugin
-```
+`pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-redirects mkdocs-video mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin`
 
 Deploy to local server from that root folder:
 
