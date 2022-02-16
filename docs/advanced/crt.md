@@ -9,15 +9,15 @@ Here's a table that shows you what options correlate to what video connection, t
 | RGBS Native           |      1     |      0     |    AUTO    |      0     |          0         |
 | RGBS Scan-doubled¹    |      1     |      0     |    AUTO    |      0     |          1         |
 | RGBS Upscaled²        |      1     |      0     |    AUTO    |      1     |          0         |
-| RGBS Direct³          |      1     |      0     |    AUTO    |      1     |          0         |
+| RGBS Direct³          |      1     |      0     |     N/A    |      0     |          0         |
 | RGBHV Native          |      0     |      0     |    AUTO    |      0     |          0         |
 | RGBHV Scan-doubled    |      0     |      0     |    AUTO    |      0     |          1         |
 | RGBHV Upscaled²       |      0     |      0     |    AUTO    |      1     |          0         |
-| RGBHV Direct³         |      0     |      0     |    AUTO    |      1     |          0         |
+| RGBHV Direct³         |      0     |      0     |     N/A    |      0     |          0         |
 | YPbPr Native          |      0     |      1     |     OVR    |      0     |          0         |
 | YPbPr Scan-doubled    |      0     |      1     |     OVR    |      0     |          1         |
 | YPbPr Upscaled²       |      0     |      1     |     OVR    |      1     |          0         |
-| YPbPr Direct³⁴        |      0     |      1     |     OVR    |      1     |          0         |
+| YPbPr Direct³⁴        |      0     |      1     |     N/A    |      0     |          0         |
 | S-Video⁵              |      1     |      0     |     N/A    |      0     |          0         |
 | Composite⁵            |      1     |      0     |     N/A    |      0     |          0         |
 
