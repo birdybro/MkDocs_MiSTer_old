@@ -66,3 +66,22 @@ v=loglevel=4 usbhid.jspoll=1 xpad.cpoll=1
 * 0 is the default value MiSTer uses (even when there is no "u_boot.txt"). In this case the requested value from the controller is used.
 * 1 is the recommended value (which means 1000/1 = 1000 Hz polling rate). However, if you ever encounter any issues, try higher integer values. The higher the interval, the higher the possible lag. This shouldn't go above 8 (which means 1000/8 = 125 Hz polling rate).
 * To see which value is applied to your controller, you can run ```systool -m xpad -A cpoll``` from the Linux shell.
+
+## What is the fastest controller I can get?
+
+Almost any standard USB controller will work well with MiSTer, however there is a short list of excellent controllers that we can suggest based on user feedback and input lag testing:
+
+* 8bitdo M30 2.4g connected in wired mode
+* Sony DS4 in wired mode
+* Hori Fighting Commander (later revisions), either PS4 or XBOX1 variant is fine; pick your favorite
+* DIY USB adapter using open source firmware available [here](https://github.com/MiSTer-devel/Retro-Controllers-USB-MiSTer){target=_blank}
+
+Generally speaking, while Bluetooth connected devices will work fine, you can expect the highest amount of input latency while using your controller in this way.
+
+Please keep in mind, “high latency” controllers *should* add, at most, 16 ms (1/60th of a second) or one frame (or rarely, depending on the controller, 32ms) of lag, and not constantly, to your experience, which is not a lot of lag, so if you’re not the type of person who notices that, you can safely just use any decent USB controller. Variable lag (the input response varying between 1 and 3 frames, for instance) is more noticeable than consistent lag. There are very few controllers which add more than 1 frame of lag.
+
+There is no definitive fastest controller that you can get, but there are quite a few at the top of the list. You can, again, check MiSTerAddons and Lemonici's [MiSTer Input Latency Chart](https://rpubs.com/misteraddons/inputlatency){target=_blank} for a definitive community sourced list of controllers tested with MiSTer with a separate device that uses the DE10-Nano's headers to get an objective result.
+
+Please see these article for more information about USB controller lag
+* https://medium.com/@WydD/controller-input-lag-how-to-measure-it-1ebfd2c9d60
+* https://inputlag.science/
