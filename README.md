@@ -1,7 +1,7 @@
 # MkDocs_MiSTer
 https://birdybro.github.io/MkDocs_MiSTer/ - Temporary location of site
 
-A work-in-progress replacement for the MiSTer FPGA Github Wiki. 
+A work-in-progress proposed replacement for the MiSTer FPGA Github Wiki's user guides. 
 
 In order to contribute to this documentation repository first please read the instructions on MkDocs' website --> https://www.mkdocs.org/user-guide/writing-your-docs/
 
