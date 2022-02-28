@@ -2,7 +2,7 @@
 
 https://birdybro.github.io/MkDocs_MiSTer/
 
-A work-in-progress replacement for the MiSTer FPGA Github Wiki.
+A work-in-progress replacement for the MiSTer FPGA Github Wiki. 
 
 In order to contribute to this documentation repository first please read the instructions on MkDocs' website --> https://www.mkdocs.org/user-guide/writing-your-docs/
 
@@ -52,3 +52,13 @@ mkdocs serve
 ```
 
 And it should give you a weburl in the terminal to go to, http://127.0.0.1:8000
+
+## Credits
+
+Huge thanks to @tofukazoo (Jorge González) for helping me with the initial GitHub automation, lots of conceptual brainstorming, important early-stage debating, and finally the motivation and encouragement to get this project going!
+
+Thanks to @Kitrinx, @sentientsix, @alanswx, @MiSTerAddons, @Tonurics, @theypsilon, and many more for so much help and advice with the content written on the initial layout!
+
+Thanks to hewhoisred for supplying art and giving expert UI design and aesthetics advice!
+
+Thanks to sorgelig for all of his amazing hard work on the MiSTer FPGA project that we all are so happy to enjoy!
