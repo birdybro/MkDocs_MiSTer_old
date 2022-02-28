@@ -85,7 +85,7 @@ The DE10-Nano board needs a 5V power supply with at least 2A. The connector is a
 
 ## My MiSTer needs a case. What should I do?
 
-There are two routes you can take; either make it yourself or purchase a case from an online vendor. For DiY, you can find the necessary 3D print files online (e.g. [thingiverse](https://www.thingiverse.com/search?q=mister+fpga)).
+There are two routes you can take; either make it yourself or purchase a case from an online vendor. For DiY, you can find the necessary 3D print files online (e.g. [thingiverse](https://www.thingiverse.com/search?q=mister+fpga){target=_blank}).
 
 ## What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?
 
@@ -146,7 +146,7 @@ Use Japanese version 3.0. You will commonly find it with filename: `Super CD-ROM
 You need to use two different options: autobooting a core, and starting the core on a given ROM. Here is how:
 In the .INI file, set `bootcore=NES_20201102.rbf` (or the specific core version you have), and comment out `;bootcore_timeout`.
 Then on your NES games folder (e.g. `/media/fat/games/NES/`, copy the FDS bios as `boot0.rom`, and your .NES rom to boot as `boot1.rom`.
-For more options, please refer to the [NES core documentation](https://github.com/MiSTer-devel/NES_MiSTer#installation) 
+For more options, please refer to the [NES core documentation](https://github.com/MiSTer-devel/NES_MiSTer#installation){target=_blank} 
 
 ## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
 
@@ -163,3 +163,13 @@ Generally, no. While it’s always possible that someone will take time to port 
 ## The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot.  Do I really need a fan or heatsink? 
 
 A number of complex cores (like ao486) benefit from having the chip at cooler temperatures, since heat can affect the tight timings they require. A fan is recommended to avoid any possible glitches, but you won't damage your DE10-Nano if you choose not to use one.
+
+## Can you take screenshots on the MiSTer?
+
+You can take screenshots on the MiSTer very easily. All you have to do is press `Win + PrtScr` on your keyboard and you will get an upscaled screenshot. For raw output from the core (which may be distorted or in a weird aspect ratio) prese `Shift + Win + PrtScr`. The screenshots are stored in `./screenshots` in a folder named after the core you took the screenshot in.
+
+These screenshots do include the effects of any video processing options, they are very simple. To take screenshots of the full video processing (i.e. the image you see on your modern screen when using the MiSTer) you will need to use some kind of capture card that supports the desired resolution.
+
+[Here is an example of a raw screenshot from the NES core](img/raw_screenshot.png){target=_blank}
+
+[Here is an example of an upscaled screenshot from the Neo Geo core](img/upscaled_screenshot.png){target=_blank}
