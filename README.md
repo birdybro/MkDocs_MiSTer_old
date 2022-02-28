@@ -1,5 +1,5 @@
 # MkDocs_MiSTer
-https://birdybro.github.io/MkDocs_MiSTer/
+https://birdybro.github.io/MkDocs_MiSTer/ - Temporary location of site
 
 A work-in-progress replacement for the MiSTer FPGA Github Wiki. 
 
@@ -11,15 +11,15 @@ It's very easy to contribute, just fork this repo, make your changes (such as ma
 
 ## Useful resources
 
-https://www.markdownguide.org/tools/mkdocs/ - Good guide on how to use markdown in mkdocs.
+* https://www.markdownguide.org/tools/mkdocs/ - Good guide on how to use markdown in mkdocs.
 
 ## Software used
-https://squidfunk.github.io/mkdocs-material/ - The static site generator used for this documentation site. (MIT License)
-https://github.com/byrnereese/mkdocs-minify-plugin - Minify plugin used. (MIT License)
-https://github.com/datarobot/mkdocs-redirects - Redirects plugin used. (MIT License)
-https://github.com/soulless-viewer/mkdocs-video - Embedded video plugin used. (MIT License)
-https://github.com/timvink/mkdocs-git-revision-date-localized-plugin - Git revision date plugin used. (MIT License)
-https://github.com/Guts/mkdocs-rss-plugin - RSS plugin used. (GPL 3.0 License)
+* https://squidfunk.github.io/mkdocs-material/ - The static site generator used for this documentation site. (MIT License)
+* https://github.com/byrnereese/mkdocs-minify-plugin - Minify plugin used. (MIT License)
+* https://github.com/datarobot/mkdocs-redirects - Redirects plugin used. (MIT License)
+* https://github.com/soulless-viewer/mkdocs-video - Embedded video plugin used. (MIT License)
+* https://github.com/timvink/mkdocs-git-revision-date-localized-plugin - Git revision date plugin used. (MIT License)
+* https://github.com/Guts/mkdocs-rss-plugin - RSS plugin used. (GPL 3.0 License)
 
 ## Style guide
 Any internally facing links must be relative links. `./docs` is the implicit root folder, so if you want to link to the assets folder you just need to use `/assets/` and type in the file that you want to link to in there.
@@ -48,7 +48,9 @@ Make sure you update [python 3](https://www.python.org/downloads/) and [update p
 
 `cd` into the root folder of this repo and install these modules:
 
-`pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-redirects mkdocs-video mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin`
+```
+pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-redirects mkdocs-video mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin
+```
 
 Deploy to local server from that root folder:
 
