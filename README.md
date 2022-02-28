@@ -1,7 +1,12 @@
 # MkDocs_MiSTer
 https://birdybro.github.io/MkDocs_MiSTer/ - Temporary location of site
 
-A proposed replacement for the MiSTer FPGA Github Wiki's user guides. 
+A proposed replacement for the MiSTer FPGA Github Wiki's user guides.
+
+Goals:
+* Capture SEO ranking for documentation searches and accurately guide users to known-good documentation. GitHub wiki's are not bot-crawled, so a separate documentation site was necessary.
+* Easy UX design through automated static site generation, so MkDocs was obvious.
+* Attractive interface, so Material for MkDocs was chosen.
 
 ## Useful resources
 
