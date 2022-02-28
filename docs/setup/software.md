@@ -1,7 +1,6 @@
 First thing to do is to install the software onto your MicroSD card.
 
 ## Flash Mr. Fusion to your MicroSD
-
 Mr. Fusion provides a compact image that you can download and flash onto an SD card of any size with a tool like  [balenaEtcher](https://www.balena.io/etcher/){target=_blank}, [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/){target=_blank}, [Apple Pi Baker](https://www.tweaking4all.com/software/macosx-software/applepi-baker-v2/){target=_blank}, or even [dd](https://en.wikipedia.org/wiki/Dd_%28Unix%29){target=_blank}.
 
 We're going to use balenaEtcher for this guide. We install balenaEtcher by [downloading the latest release for our computer](https://www.balena.io/etcher/){target=_blank} and installing it. 
@@ -32,7 +31,6 @@ If you see "Flash complete!" and "1 Successful target" then everything worked fi
 We can now close balenaEtcher and remove our MicroSD card.
 
 ## Boot the DE10-Nano with Mr. Fusion
-
 Next we just need to carefully insert our MicroSD card into the DE10-Nano (**NOT the MicroSD slot on the IO board on top!**).
 
 ![Location of DE10-Nano MicroSD slot on the bottom](img/de10-nano-microsd.png)

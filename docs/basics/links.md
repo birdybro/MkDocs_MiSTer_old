@@ -1,5 +1,7 @@
+Here's a collection of links to various information, videos, and articles about the MiSTer.
+
 # External Articles
-Here's some links to various articles and information about the MiSTer.
+Links to various articles and information about the MiSTer:
 
 ## MiSTer FPGA Overview/Reviews
 * [Polygon - MiSTer 101: A classic gaming device to rule them all by Christopher Grant](https://www.polygon.com/22640171/mister-project-classic-gaming-retro-fpga-board-chip-io-explainer-usb-hub){target=_blank} - August 8, 2021
@@ -13,10 +15,10 @@ Here's some links to various articles and information about the MiSTer.
 * [MiSTer Manual by adreeve](https://github.com/adreeve/MiSTerManual){target=_blank}
 
 # External Videos
-Here's some links to various videos and information about the MiSTer.
+Links to various videos and information about the MiSTer:
 
 ## MiSTer FPGA Overview
-MiSTer is an evolving platform, so these videos can only represent what was available at the time:
+MiSTer is an evolving platform, so these videos can only represent what was available at the time of them being made, some information and representations may be outdated:
 * [Jan 2021 - Digital Foundry - DF Retro Hardware: MiSTer FPGA - A Brilliant Mini Emulation System Explored!](https://www.youtube.com/watch?v=PfIwDC2F2lc){target=_blank}
 * [Jan 2021 - Scarlet Sprites - MiSTer FPGA Review 2021: Arcade & Console Accuracy!](https://www.youtube.com/watch?v=wxkBDK-99mY){target=_blank}
 * [Dec 2020 - Retro Bits - MiSTer FPGA - how to build, demo, costs, and pro/cons](https://www.youtube.com/watch?v=-IP0k3GatHE){target=_blank}
@@ -28,6 +30,7 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [Oct 2018 - SmokeMonster - Introducing the MiSTer FPGA](https://www.youtube.com/watch?v=igiVHfBzX8w){target=_blank}
 
 ## Tutorials
+Same as with the videos above, MiSTer is an evolving platform, so these tutorials can only represent what was available at the time of them being made, some information and representations may be outdated:
 * [MiSTer assembly and config (Ownlonymous)](https://www.youtube.com/watch?v=9CGZtv7vj5A){target=_blank}
 * [Creating a MiSTer SD card (NML32)](https://www.youtube.com/watch?v=lPObjJvPeW0){target=_blank}
 * [Mounting a VHD from Windows over the network (NML32)](https://www.youtube.com/watch?v=OR0wVkt3kY8){target=_blank}
@@ -37,9 +40,11 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [AO486 Core - Setting up DOS Games with pre-built Total DOS Launcher (FlynssBit)](https://www.youtube.com/watch?v=rLpAUtALJfw){target=_blank}
 
 ## FPGA Discussion 
-(mentioning MiSTer)
+Videos and overviews that made significant mention of MiSTer while discussing FPGA-based emulation.
 * [Oct 2019 - Lon.TV - Lon & RetroRGB discuss FPGA](https://www.youtube.com/watch?v=NJtwaHeGmrk){target=_blank}
 * [Sep 2019 - SmokeMonster - FPGA Revolution](https://www.youtube.com/watch?v=X2G0WJ-Z9tk){target=_blank}
 
 ## Other / Demonstrations
 * [Jul 2020 - RetroManCave - My Ultimate FPGA Desktop](https://www.youtube.com/watch?v=TCQuUwHH45w){target=_blank}
+
+## FPGA Information

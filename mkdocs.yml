@@ -95,6 +95,8 @@ nav:
   - Cores:
     - What Is a Core: cores/what.md
     # Just a good place to show off special features of some cores, to get people started.
+    - Common Core Features:
+      - Cheats: cores/features/cheats.md
     - Core Highlights:
       - SNES: cores/highlights/snes.md
       - NES: cores/highlights/nes.md
@@ -120,8 +122,6 @@ nav:
     - MIDI: advanced/midi.md
     - Multi-Button Mapping: advanced/multibutton.md
     - INI Settings: advanced/ini.md
-    - Screenshots: advanced/screenshots.md
-    - Cheat Engine: advanced/cheats.md
     - Lag Explained: advanced/lag.md
     - Console Connection: advanced/console.md
 

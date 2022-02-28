@@ -10,7 +10,6 @@ There are a few things you will need in order to setup your MiSTer:
 * HDMI Monitor/TV and HDMI Cable
 
 ## Where to buy
-
 **DE10-Nano:**
 
 * [Terasic](http://de10-nano.terasic.com)
