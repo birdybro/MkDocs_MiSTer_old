@@ -1,7 +1,7 @@
 # MkDocs_MiSTer
 https://birdybro.github.io/MkDocs_MiSTer/ - Temporary location of site
 
-A work-in-progress proposed replacement for the MiSTer FPGA Github Wiki's user guides. 
+A proposed replacement for the MiSTer FPGA Github Wiki's user guides. 
 
 ## Useful resources
 
@@ -16,25 +16,20 @@ A work-in-progress proposed replacement for the MiSTer FPGA Github Wiki's user g
 * https://github.com/timvink/mkdocs-git-revision-date-localized-plugin - Git revision date plugin used. (MIT License)
 * https://github.com/Guts/mkdocs-rss-plugin - RSS plugin used. (GPL 3.0 License)
 
-## Prerequisites and deploying a local environment
+## Instructions for deploying a local environment
+Prerequisites:
 * Python 3
 * Pip
 
-Make sure you update [python 3](https://www.python.org/downloads/) and [update pip](https://pip.pypa.io/en/stable/installation/).
-
-`cd` into the root folder of this repo and install these modules:
-
+Make sure you update [python 3](https://www.python.org/downloads/) and [update pip](https://pip.pypa.io/en/stable/installation/). Then, `cd` into the root folder of this repo and install these modules:
 ```
 pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-redirects mkdocs-video mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin
 ```
-
 Deploy to local server from that root folder:
-
 ```
 mkdocs serve
 ```
-
-And it should give you a weburl in the terminal to go to, http://127.0.0.1:8000
+And it should give you a weburl in the terminal to go to --> http://127.0.0.1:8000
 
 ## Credits
 Huge thanks to [@tofukazoo](https://github.com/tofukazoo) (Jorge González) for helping me with the initial GitHub automation, lots of conceptual brainstorming, important early-stage debating, and finally the motivation and encouragement to get this project going!
