@@ -1,5 +1,4 @@
 # MkDocs_MiSTer
-
 https://birdybro.github.io/MkDocs_MiSTer/
 
 A work-in-progress replacement for the MiSTer FPGA Github Wiki. 
@@ -12,10 +11,17 @@ It's very easy to contribute, just fork this repo, make your changes (such as ma
 
 ## Useful resources
 
-https://www.markdownguide.org/tools/mkdocs/
+https://www.markdownguide.org/tools/mkdocs/ - Good guide on how to use markdown in mkdocs.
+
+## Software used
+https://squidfunk.github.io/mkdocs-material/ - The static site generator used for this documentation site. (MIT License)
+https://github.com/byrnereese/mkdocs-minify-plugin - Minify plugin used. (MIT License)
+https://github.com/datarobot/mkdocs-redirects - Redirects plugin used. (MIT License)
+https://github.com/soulless-viewer/mkdocs-video - Embedded video plugin used. (MIT License)
+https://github.com/timvink/mkdocs-git-revision-date-localized-plugin - Git revision date plugin used. (MIT License)
+https://github.com/Guts/mkdocs-rss-plugin - RSS plugin used. (GPL 3.0 License)
 
 ## Style guide
-
 Any internally facing links must be relative links. `./docs` is the implicit root folder, so if you want to link to the assets folder you just need to use `/assets/` and type in the file that you want to link to in there.
 
 Any externally facing links need to use "open link in new tab" by default, so as not to confuse the user and keep them on their setup step, reduce the need to click "back", etc... This is enabled by the `- attr_list` extension. To do this, just add `{target=_blank}` to the end of your link. e.g.:
@@ -35,7 +41,6 @@ To link to another doc with a specific sub-url:
 `[WiFi tutorial](wifi.md#setup-wifi-with-a-script)`
 
 ## Prerequisites and deploying a local environment
-
 * Python 3
 * Pip
 
@@ -54,7 +59,6 @@ mkdocs serve
 And it should give you a weburl in the terminal to go to, http://127.0.0.1:8000
 
 ## Credits
-
 Huge thanks to [@tofukazoo](https://github.com/tofukazoo) (Jorge González) for helping me with the initial GitHub automation, lots of conceptual brainstorming, important early-stage debating, and finally the motivation and encouragement to get this project going!
 
 Thanks to [@Kitrinx](https://github.com/Kitrinx/), [@sentientsix](https://github.com/sentientsix), [@alanswx](https://github.com/alanswx/), [@MiSTerAddons](https://github.com/misteraddons), [@Tonurics](https://github.com/tonurics/), [@theypsilon](https://github.com/theypsilon/), and many more for so much help and advice with the content written on the initial layout!
