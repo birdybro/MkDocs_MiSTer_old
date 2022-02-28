@@ -26,4 +26,5 @@ The L on the bottom left is referring to an analog joystick. Your controller may
 
 Another important button is the OSD button. Many modern controllers have a "Home" button, it's probably best to assign this to the OSD/Menu. If you do not assign anything to home, the only way to access the menu will be to use the F12 key on a keyboard.
 
+### Define Gamepad Inputs/Buttons Example Video
 ![type:video](videos/define-gamepad.mp4)
