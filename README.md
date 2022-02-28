@@ -21,25 +21,6 @@ It's very easy to contribute, just fork this repo, make your changes (such as ma
 * https://github.com/timvink/mkdocs-git-revision-date-localized-plugin - Git revision date plugin used. (MIT License)
 * https://github.com/Guts/mkdocs-rss-plugin - RSS plugin used. (GPL 3.0 License)
 
-## Style guide
-Any internally facing links must be relative links. `./docs` is the implicit root folder, so if you want to link to the assets folder you just need to use `/assets/` and type in the file that you want to link to in there.
-
-Any externally facing links need to use "open link in new tab" by default, so as not to confuse the user and keep them on their setup step, reduce the need to click "back", etc... This is enabled by the `- attr_list` extension. To do this, just add `{target=_blank}` to the end of your link. e.g.:
-
-`[DE10-Nano](http://de10-nano.terasic.com){target=_blank}`
-
-Make images links when it may benefit the user. Here is the syntax:
-
-`[![Download Mr. Fusion](dl-mr-fusion.png)](https://github.com/MiSTer-devel/mr-fusion/releases){target=_blank}`
-
-To embed a video:
-
-`![type:video](videos/downloader.mp4)`
-
-To link to another doc with a specific sub-url:
-
-`[WiFi tutorial](wifi.md#setup-wifi-with-a-script)`
-
 ## Prerequisites and deploying a local environment
 * Python 3
 * Pip
