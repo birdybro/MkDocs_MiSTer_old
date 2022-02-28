@@ -57,8 +57,8 @@ And it should give you a weburl in the terminal to go to, http://127.0.0.1:8000
 
 Huge thanks to @tofukazoo (Jorge González) for helping me with the initial GitHub automation, lots of conceptual brainstorming, important early-stage debating, and finally the motivation and encouragement to get this project going!
 
-Thanks to @Kitrinx, @sentientsix, @alanswx, @MiSTerAddons, @Tonurics, @theypsilon, and many more for so much help and advice with the content written on the initial layout!
+Thanks to [@Kitrinx](https://github.com/Kitrinx/), [@sentientsix](https://github.com/sentientsix), [@alanswx](https://github.com/alanswx/), [@MiSTerAddons](https://github.com/misteraddons), [@Tonurics](https://github.com/tonurics/), [@theypsilon](https://github.com/theypsilon/), and many more for so much help and advice with the content written on the initial layout!
 
-Thanks to hewhoisred for supplying art and giving expert UI design and aesthetics advice!
+Thanks to [@hewhoisred](https://github.com/hewhoisred) for supplying art and giving expert UI design and aesthetics advice!
 
-Thanks to sorgelig for all of his amazing hard work on the MiSTer FPGA project that we all are so happy to enjoy!
+Thanks to [@sorgelig](https://github.com/sorgelig/) (Alexey Melnikov) for all of his amazing hard work on the MiSTer FPGA project that we all are so happy to enjoy!
