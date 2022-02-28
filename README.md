@@ -3,15 +3,10 @@ https://birdybro.github.io/MkDocs_MiSTer/ - Temporary location of site
 
 A work-in-progress proposed replacement for the MiSTer FPGA Github Wiki's user guides. 
 
-In order to contribute to this documentation repository first please read the instructions on MkDocs' website --> https://www.mkdocs.org/user-guide/writing-your-docs/
-
-Try your best to follow along with the general structure of folders (categories) and the quality of the articles. Remember, quality over quantity. :)
-
-It's very easy to contribute, just fork this repo, make your changes (such as making a new markdown file or editing one) and follow normal markdown syntax, commit changes to your fork, submit your pull request, and we will review it to see if it's suitable to merge.
-
 ## Useful resources
 
 * https://www.markdownguide.org/tools/mkdocs/ - Good guide on how to use markdown in mkdocs.
+* https://www.mkdocs.org/user-guide/writing-your-docs/ - MkDocs reference
 
 ## Software used
 * https://squidfunk.github.io/mkdocs-material/ - The static site generator used for this documentation site. (MIT License)
