@@ -52,9 +52,9 @@ plugins:
 
 # Customization
 extra:
-  # Subject to change later when incorporated into the project
+  # Subject to change later when incorporated into the project, potentially https://docs.misterfpga.org/
   homepage: https://birdybro.github.io/MkDocs_MiSTer/
-  # Placeholder for analytics configuration, modify value and uncomment when ready
+  # Placeholder for analytics configuration, modify values and uncomment when ready
   # analytics:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY
