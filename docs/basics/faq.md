@@ -20,7 +20,7 @@ Yes, there are many USB adapters for original console controllers. They can also
 Light guns such as the NES Zapper are too timing sensitive to work over USB, but will work fine on supported cores via the IO board as detailed below. 
 
 ## Any USB controller recommendations?
-Good controllers that many users seem to like and have low input latency are:
+Almost any controller that uses USB will work with MiSTer. You can also use a Bluetooth or 2.4ghz USB adapter for wireless. Good controllers that many users seem to like and have low input latency are:
 
 * [Sony DualSense (PS5 Controller)](https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/){target=_blank} - Very low lag, fast pairing, touchpad, and extra button (mute) if paired with a bluetooth 5.0 adapter (TP-Link UB-500, Edimax BT-8500, or Asus USB-BT500 adapters are recommended and known to work).
 * [8BitDo M30 Bluetooth](https://www.8bitdo.com/m30/){target=_blank} and [8BitDoM30 2.4G](https://www.8bitdo.com/m30-2-4g-for-genesis-mini-mega-drive-mini/){target=_blank} - Note these kinds of controllers do not have as many buttons as the Playstation style controllers and you may be limited if you use them.
@@ -28,21 +28,13 @@ Good controllers that many users seem to like and have low input latency are:
 * [8bitDo Arcade Stick](https://www.8bitdo.com/arcade-stick/){target=_blank} - Wired and wireless low lag functionality with low variable lag, customizable buttons and joystick is supported.
 * [iBuffalo SNES Controller](https://www.amazon.com/Buffalo-iBuffalo-Classic-USB-Gamepad/dp/B002B9XB0E/){target=_blank} - A little overpriced now, but it is a very low lag controller.
 
-And many many more. Check [MiSTerAddons' input latency tests](https://rpubs.com/misteraddons/inputlatency){target=_blank} to help you decide.
+And many many more. Check [MiSTerAddons' input latency tests](https://rpubs.com/misteraddons/inputlatency){target=_blank} to help you decide. Also to ensure you get the fastest response make sure to check the [USB overclock instructions](../advanced/lag.md) section out.
 
 There are also some excellent usb controller adapters which enable you to use original console controllers:
 
 * [Timville Triple Controller Daemonbite](https://www.tindie.com/products/timville/triple-controller-classic-gaming-usb-adapter/){target=_blank} - A spinoff of MickGuyver's Daemonbite adapters that has support for NES, Genesis, and SNES original hardware. You can also make it yourself using instructions found [here](https://github.com/timville85/TripleController){target=_blank}. There is an option to purchase a 3d printed housing that you can also print yourself using the 3d files from [here](https://www.thingiverse.com/thing:5011783){target=_blank}.
 * [MickGuyver's Daemonbite adapters](https://www.daemonbite.com/shop/){target=_blank} - Very low latency adapters, often low supply and sold out however. Can build them yourself using instructions found [here](https://github.com/MickGyver/DaemonBite-Arcade-Encoder){target=_blank} and [here](https://github.com/MickGyver/DaemonBite-Arcade-Encoder){target=_blank}.
 * [2600-daptor D9](http://www.2600-daptor.com/){target=_blank} - Lowest latency "controller" in the [MiSTerAddons input latency tests](https://rpubs.com/misteraddons/inputlatency){target=_blank}.
-
-## What are the USB controller options?
-Almost any controller that uses USB will work with MiSTer. You can also use a Bluetooth or 2.4ghz USB adapter for wireless. To reduce input latency USB may be overclocked which works with some controllers. For more information, check the links below:
-
-* [USB overclock instructions](../advanced/lag.md)
-* [USB controller performance data by Lemonici and MiSTerAddons](https://rpubs.com/misteraddons/inputlatency){target=_blank}
-* [USB DaemonBite](https://github.com/MickGyver/DaemonBite-Retro-Controllers-USB){target=_blank}
-* [Triple Controller Daemonbite by timville85](https://github.com/timville85/TripleController){target=_blank}
 
 ## Can I increase the polling rate of my USB controller to improve input latency?
 Yes, you can. [See here](../advanced/lag.md).
