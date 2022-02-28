@@ -1,9 +1,7 @@
 # External Articles
-
 Here's some links to various articles and information about the MiSTer.
 
 ## MiSTer FPGA Overview/Reviews
-
 * [Polygon - MiSTer 101: A classic gaming device to rule them all by Christopher Grant](https://www.polygon.com/22640171/mister-project-classic-gaming-retro-fpga-board-chip-io-explainer-usb-hub){target=_blank} - August 8, 2021
 * [Kotaku - And Now, The Ultimate Retro Gaming Device by Mike Fahey](https://kotaku.com/and-now-the-ultimate-retro-gaming-device-1847608362){target=_blank} - September 02, 2021
 * [Edge Magazine Australia - Hard Core: How MiSTer emulation is redefining the art of resurrecting gaming's past by Alex Wiltshire](https://www.pressreader.com/australia/edge/20210422/284249533161844){target=_blank} - April 22, 2021
@@ -12,11 +10,9 @@ Here's some links to various articles and information about the MiSTer.
 * [Dream Machine: MiSTer FPGA by Félix Léger (@felleg)](https://felixleger.com/posts/2020/10/dream-machine-mister-fpga/){target=_blank} - October 18, 2020
 
 ## Tutorials/Guides
-
 * [MiSTer Manual by adreeve](https://github.com/adreeve/MiSTerManual){target=_blank}
 
 # External Videos
-
 Here's some links to various videos and information about the MiSTer.
 
 ## MiSTer FPGA Overview
