@@ -1,4 +1,4 @@
-Here is a list of the arcade cores that are in the MiSTer Github Repository.
+Here is a list of the arcade cores that are in the MiSTer Github Repository. (SDRAM section is not filled in yet, assume the cores require SDRAM)
 
 | Core Name                                                                          | SDRAM    |
 | ---------------------------------------------------------------------------------- | -------- |
