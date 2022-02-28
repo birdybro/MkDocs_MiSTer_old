@@ -82,10 +82,11 @@ nav:
   # 
   - The Basics:
     - FAQ: basics/faq.md
-    - WiFi: basics/wifi.md
-    - Controllers: basics/input.md
-    - Bluetooth: basics/bluetooth.md
     - Hotkeys: basics/hotkey.md
+    - Controllers: basics/input.md
+    - Keyboards: basics/keyboard.md
+    - WiFi: basics/wifi.md
+    - Bluetooth: basics/bluetooth.md
     - Video Configuration: basics/video.md
     - CD-based ROMs: basics/cd.md
     - Links: basics/links.md
