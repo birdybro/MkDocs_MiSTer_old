@@ -40,7 +40,7 @@ The following steps will allow you to get it working.
 3. If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
 4. Get the replacement PPP client
     * Download the software.  There are other newer versions available BUT be warned only version 3.0 will work.
-        * [Trumpet Winsock 3.0](https://winworldpc.com/product/trumpet-winsock/3x){target=_blank} or [Official Homepage](http://www.trumpet.com.au/index.php/downloads.html){target=_blank} - (I extracted the file from the disk image and uploaded it using the DOS ftp client documented above)
+        * [Trumpet Winsock 3.0](https://winworldpc.com/product/trumpet-winsock/3x){target=_blank} - (I extracted the file from the disk image and uploaded it using the DOS ftp client documented above)
 5. License the Software - This software is still shareware (time limited) please license it appropriately. Once you acquire a license you can put the details in Tcpman in the "Special" menu in "Password registration"
 6. Configure Software  
     * Start Tcpman
