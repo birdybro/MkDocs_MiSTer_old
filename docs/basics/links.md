@@ -1,9 +1,6 @@
 Here's a collection of links to various information, videos, and articles about the MiSTer.
 
-# External Articles
-Links to various articles and information about the MiSTer:
-
-## MiSTer FPGA Overview/Reviews
+## MiSTer FPGA Articles
 * [Polygon - MiSTer 101: A classic gaming device to rule them all by Christopher Grant](https://www.polygon.com/22640171/mister-project-classic-gaming-retro-fpga-board-chip-io-explainer-usb-hub){target=_blank} - August 8, 2021
 * [Kotaku - And Now, The Ultimate Retro Gaming Device by Mike Fahey](https://kotaku.com/and-now-the-ultimate-retro-gaming-device-1847608362){target=_blank} - September 02, 2021
 * [Edge Magazine Australia - Hard Core: How MiSTer emulation is redefining the art of resurrecting gaming's past by Alex Wiltshire](https://www.pressreader.com/australia/edge/20210422/284249533161844){target=_blank} - April 22, 2021
@@ -14,10 +11,7 @@ Links to various articles and information about the MiSTer:
 ## Tutorials/Guides
 * [MiSTer Manual by adreeve](https://github.com/adreeve/MiSTerManual){target=_blank}
 
-# External Videos
-Links to various videos and information about the MiSTer:
-
-## MiSTer FPGA Overview
+## MiSTer FPGA Videos
 MiSTer is an evolving platform, so these videos can only represent what was available at the time of them being made, some information and representations may be outdated:
 * [Jan 2021 - Digital Foundry - DF Retro Hardware: MiSTer FPGA - A Brilliant Mini Emulation System Explored!](https://www.youtube.com/watch?v=PfIwDC2F2lc){target=_blank}
 * [Jan 2021 - Scarlet Sprites - MiSTer FPGA Review 2021: Arcade & Console Accuracy!](https://www.youtube.com/watch?v=wxkBDK-99mY){target=_blank}
@@ -47,4 +41,3 @@ Videos and overviews that made significant mention of MiSTer while discussing FP
 ## Other / Demonstrations
 * [Jul 2020 - RetroManCave - My Ultimate FPGA Desktop](https://www.youtube.com/watch?v=TCQuUwHH45w){target=_blank}
 
-## FPGA Information
