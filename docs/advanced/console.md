@@ -8,6 +8,7 @@ Refer to the **UART-to-USB (USB Mini-B)** connector on the board right side in t
 Connect the DE10-nano board to a PC using the **UART-to-USB (USB mini type B)** connector next to micro-USB. The PC will recognize it as virtual COM port. Use any console application to connect to this COM port. I recommend [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){target=_blank}.
 
 Verify that COM port settings are correct:
+
 * Speed (baud rate) - 115200 bits per second
 * Data bits - 8
 * Stop bits - 1
