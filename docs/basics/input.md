@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 MiSTer has support for a wide variety of input devices. It also has options to configure these devices to fit your needs. Here is a breakdown of some special configurations for various input devices like spinners, gamepads, joysticks, and keyboards.
 
 ## What is supported?

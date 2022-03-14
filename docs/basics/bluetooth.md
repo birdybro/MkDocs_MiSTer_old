@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Bluetooth adapters and using controllers over bluetooth is supported on the MiSTer.
 
 ## Compatible adapters

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Here is a list of the console cores that are in the MiSTer Github Repository.
 
 | Core Name                                                                     | Systems                                                                                                 | /games/ Folder          | BIOS                                                                                                                                          | SDRAM    |

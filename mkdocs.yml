@@ -133,14 +133,6 @@ nav:
   - Developer Reference:
     - Core Configuration String: developer/conf_str.md
     - Arcade ROMS and MRA Files: developer/mra.md
-    - Useful Modules: developer/modules.md
-    - Debugging:
-      - USB Blaster: developer/usb-blaster.md
-      - Verilator: developer/verilator.md
-    - Compiling:
-      - Linux Kernel: developer/kernel.md
-      - Main MiSTer Binary: developer/main.md
-      - Bootloader: developer/bootloader.md
     - Useful Links: developer/links.md
     - Tips and Guidelines: developer/principles.md
 

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 We need to update the MiSTer the first time you get it setup. This is because the MiSTer currently only has a script to update it, no cores, no arcade files, and it's system files may be outdated. If you don't have a wired internet connection to your MiSTer, please remove your microSD and place the WiFi script into the `scripts` folder, and then follow the instructions in the [WiFi tutorial](../basics/wifi.md#setup-wifi-with-a-script).
 
 ## Running Downloader.sh

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 There are a few things you will need in order to setup your MiSTer:
 
 * Terasic DE10-Nano

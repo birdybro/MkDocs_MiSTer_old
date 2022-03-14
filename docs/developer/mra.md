@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 This page explains most of the intricacies of the way MiSTer handles ROMs for Arcade systems.
 
 ## MRA Format
@@ -129,6 +134,7 @@ end
 ### Dip Switches
 
 Dip switch support in the latest version of MRA is used instead of the status bits. The DIP config str is listed in the core, and the core is responsible for reading the up to 64bits of dip data that is sent via ioctl_index 254.
+
 
 ```verilog
 reg [7:0] sw[8];

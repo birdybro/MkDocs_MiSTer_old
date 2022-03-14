@@ -1,1 +1,0 @@
-[https://github.com/MiSTer-devel/Main_MiSTer/wiki/USB-Blaster-(debugging)](https://github.com/MiSTer-devel/Main_MiSTer/wiki/USB-Blaster-(debugging)){target=_blank}

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Next all we need to do is load the core for the system we want to play. In our case it is the NES core. Just select Console then NES and hit enter or the button you assigned "A" on the controller earlier. The core will load. You may need to press the Menu button you assigned earlier or F12 on the keyboard to bring the menu up. Once your menu is up, select Load ROM and load your game.
 
 Once the game loads, you will want to turn on Autosave if your game saves. Basically, the MiSTer has to be told when to save your game. Let's say you save your progress in Final Fantasy for the NES, each time you do this, you need to open the On Screen Display to tell it to save. The autosave setting makes it so all you have to do is open the menu, so it's a good idea to turn it on so you don't forget.

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Here's a quick guide to show you how to edit this documentation site. It's very similar to editing a wiki page, but requires a couple extra steps. All edits are approved by the administrators of the MkDocs_MiSTer repository on GitHub for quality control purposes.
 
 ## How to edit/contribute to pages on this documentation site

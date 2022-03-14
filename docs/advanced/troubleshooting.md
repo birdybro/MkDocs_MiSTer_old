@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 ## Fixing missing certs
 
 If you are unable to wget as instructed above, this might be because you are missing security certificate files. The default system comes with no security certificate files, which is a bit annoying, as you need to add --no-check-certificate on wget to download anything HTTPS. Lets fix that:

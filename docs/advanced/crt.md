@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 There are a few different ways you can use a CRT display with the MiSTer. The two main methods are either using the VGA port on the Analog IO board or using a specific Direct Video HDMI to VGA adapter.
 
 ## Configuration Table

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Here is a list of the computer cores that are in the MiSTer Github Repository.
 
 | Core Name                                                            | System                                                     | /games/ Folder  | SDRAM    |
