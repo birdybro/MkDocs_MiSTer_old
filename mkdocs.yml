@@ -51,6 +51,11 @@ plugins:
   # Makes things load faster at the cost of a little extra build time
   - minify:
       minify_html: true
+  - social:
+      cards_color:
+        fill: "44475a"
+        text: "#f8f8f2de"
+      cards_font: Roboto
 
 
 # Customization
