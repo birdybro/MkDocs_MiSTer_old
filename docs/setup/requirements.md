@@ -12,9 +12,9 @@ There are a few things you will need in order to setup your MiSTer:
 ## Where to buy
 **DE10-Nano:**
 
-* [Terasic](http://de10-nano.terasic.com)
-* [Digikey](https://www.digikey.com/en/products/detail/terasic-inc/P0496/6817231) 
-* [Mouser](https://www.mouser.com/ProductDetail/Terasic-Technologies/P0496?qs=sGAEpiMZZMug%252BNZZT2EIMybLXjFfYtXHeZj9cpOi%2FsY%3D)
+* [Terasic](http://de10-nano.terasic.com){target=_blank}
+* [Digikey](https://www.digikey.com/en/products/detail/terasic-inc/P0496/6817231){target=_blank}
+* [Mouser](https://www.mouser.com/ProductDetail/Terasic-Technologies/P0496?qs=sGAEpiMZZMug%252BNZZT2EIMybLXjFfYtXHeZj9cpOi%2FsY%3D){target=_blank}
 
 **SDRAM:**
 
@@ -24,7 +24,7 @@ The MiSTer SDRAM add-on board is required by many cores, like the SNES, NES, Pla
 
 Preferably, the MiSTer USB Hub Add-on board which you can assemble yourself if you are good at soldering, or you can buy from the various shops that sell them.
 
-At a minimum, the [MakerSpot Micro USB OTG Hub](https://www.amazon.com/MakerSpot-Accessories-Charging-Extension-Raspberry/dp/B01JL837X8) works very well for the MiSTer, if you are looking for a very cheap option.
+At a minimum, the [MakerSpot Micro USB OTG Hub](https://www.amazon.com/MakerSpot-Accessories-Charging-Extension-Raspberry/dp/B01JL837X8){target=_blank} works very well for the MiSTer, if you are looking for a very cheap option.
 
 **Cooling:**
 
