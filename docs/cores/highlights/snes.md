@@ -1,4 +1,4 @@
-The Super Nintendo Entertainment System (or SNES) MiSTer core has multiple features like CPU and Super FX chip turbo mode, lightgun support, mouse support, and even changing the WRAM initialization value. In addition to this, it also has support for nearly every single enhancement chip released. It is a very powerful core that was primarily developed by [srg320](www.patreon.com/srg320){target=_blank} when he didn't even have original hardware.
+The Super Nintendo Entertainment System (or SNES) MiSTer core has multiple features like CPU and Super FX chip turbo mode, lightgun support, mouse support, and even changing the WRAM initialization value. In addition to this, it also has support for nearly every single enhancement chip released. It is a very powerful core that was primarily developed by [srg320](https://www.patreon.com/srg320){target=_blank} when he didn't even have original hardware.
 
 ## Enhancement Chip Support
 Here are the SNES enhancement chips currently supported with some example games they were used in:
