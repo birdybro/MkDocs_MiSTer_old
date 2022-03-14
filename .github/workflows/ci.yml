@@ -52,10 +52,6 @@ jobs:
         run: |
           pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
 
-      - name: Install Insiders Plugins
-        run: |
-          
-
       - name: Deploy Documentation
         run: |
           mkdocs gh-deploy --force
