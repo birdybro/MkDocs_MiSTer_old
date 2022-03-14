@@ -7,3 +7,5 @@
 MiSTer utilizes a readily available FPGA board called the [DE10-Nano](http://de10-nano.terasic.com){target=_blank}, which connects to your TV or monitor via HDMI video out. It can also be expanded with various [add-on boards](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Addons-Overview){target=_blank}, such as a 7-port USB hub, 128MB SDRAM module, and either a Digital I/O or Analog I/O board.
 
 The MiSTer project is currently under active development with new cores, features, and bug-fixes appearing on a regular basis. 
+
+Also I think it's **super** cool and stuff, ya know???
