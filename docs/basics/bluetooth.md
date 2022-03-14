@@ -4,10 +4,9 @@ Bluetooth adapters and using controllers over bluetooth is supported on the MiST
 
 Generally speaking, most bluetooth 4.0 adapters use one of two similar chips, the CSR8510 and the BCM20702, and these are compatible. Bluetooth 5.0 adapters are a little different, but many are compatible as well. Here is a list of a few known compatible adapters:
 
-* ASUS USB-BT500 (5.0)
-* Edimax BT-8500 (5.0)
-* ZEXMTE Long Range USB Bluetooth (5.0)
-* Ovker USB WiFi Bluetooth Adapter (4.2) (Labeled "Driver Free" in green)
+* [ASUS USB-BT500 (5.0)](https://www.amazon.com/dp/B08DFBNG7F){target=_blank}
+* [Edimax BT-8500 (5.0)](https://www.amazon.com/Edimax-BT-8500-Bluetooth-Supports-Controllers/dp/B08M1VJHVD/){target=_blank}
+* [ZEXMTE Long Range USB Bluetooth (5.0)](https://www.amazon.com/ZEXMTE-Bluetooth-Adapter-Keyboard-Headphones/dp/B09D7W918Q){target=_blank}
 
 There are many more that work than just these. Please note that some hardware revisions may change the compatibility of even the adapters in this list, your results may vary. For the most part, most adapters seem to work fine.
 
