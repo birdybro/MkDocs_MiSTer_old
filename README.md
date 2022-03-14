@@ -8,6 +8,8 @@ Goals:
 * Easy UX design through automated static site generation, so MkDocs was obvious.
 * Attractive interface, so Material for MkDocs was chosen.
 
+![Preview of site](preview.png)
+
 ## Useful resources
 
 * https://www.markdownguide.org/tools/mkdocs/ - Good guide on how to use markdown in mkdocs.
