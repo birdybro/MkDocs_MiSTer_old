@@ -1,4 +1,4 @@
-The Genesis core is a port of the [fpgagen](https://github.com/Torlus/fpgagen) core to MiSTer, with significant enhancements and additions.
+The Genesis core is a port of the [fpgagen](https://github.com/Torlus/fpgagen){target=_blank} core to MiSTer, with significant enhancements and additions.
 
 ## Features
 * Composite Blending effect (e.g. Sonic Waterfall transparency)
@@ -8,7 +8,7 @@ The Genesis core is a port of the [fpgagen](https://github.com/Torlus/fpgagen) c
 * Switch between YM2612 (Model 1) or YM3438 (Model 2/3) FM Synth
 * Multitap: 4-way, Team Player, J-Cart
 * SVP Chip (Virtua Racing for Genesis supported)
-* Auto-Region header detection using the [new style and the old style combined](https://plutiedev.com/rom-header#region).
+* Auto-Region header detection using the [new style and the old style combined](https://plutiedev.com/rom-header#region){target=_blank}.
 * Corrected Aspect Ratio option for 320x224 game resolutions (e.g. Castlevania Moon).
 
 ## Region detection
