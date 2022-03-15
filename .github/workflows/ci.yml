@@ -13,15 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Install Ubuntu Dependencies for Material for MkDocs Insiders
-        run: |
-          sudo apt-get install \
-          libcairo2-dev \
-          libfreetype6-dev \
-          libffi-dev \
-          libjpeg-dev \
-          libpng-dev \
-          libz-dev
+      # - name: Install Ubuntu Dependencies for Material for MkDocs Insiders
+      #   run: |
+      #     sudo apt-get install \
+      #     libcairo2-dev \
+      #     libfreetype6-dev \
+      #     libffi-dev \
+      #     libjpeg-dev \
+      #     libpng-dev \
+      #     libz-dev
 
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -36,8 +36,6 @@ jobs:
       - name: Install Python Dependencies
         run: |
           pip install \
-          Pillow \
-          cairosvg \
           mkdocs \
           mkdocs-material \
           mkdocs-minify-plugin \
@@ -46,11 +44,15 @@ jobs:
           mkdocs-git-revision-date-localized-plugin \
           mkdocs-rss-plugin
 
-      - name: Install mkdocs-material-insiders
-        env:
-          GH_TOKEN: ${{ secrets.MKDOCS_MATERIAL_INSIDERS }}
-        run: |
-          pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+        # For mkdocs insiders build purposes to use later
+        # Pillow \
+        # cairosvg \
+
+      # - name: Install mkdocs-material-insiders
+      #   env:
+      #     GH_TOKEN: ${{ secrets.MKDOCS_MATERIAL_INSIDERS }}
+      #   run: |
+      #     pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
 
       - name: Deploy Documentation
         run: |
