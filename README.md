@@ -1,12 +1,8 @@
 # MkDocs_MiSTer
-https://birdybro.github.io/MkDocs_MiSTer/ - Temporary location of site
 
-A proposed replacement for the MiSTer FPGA Github Wiki's user guides.
+https://MiSTer-devel.github.io/MkDocs_MiSTer/
 
-Goals:
-* Capture SEO ranking for documentation searches and accurately guide users to known-good documentation. GitHub wiki's are not bot-crawled, so a separate documentation site was necessary.
-* Easy UX design through automated static site generation, so MkDocs was obvious.
-* Attractive interface, so Material for MkDocs was chosen.
+MiSTer FPGA Documentation built in Material for MkDocs.
 
 ## Useful resources
 
@@ -14,6 +10,7 @@ Goals:
 * https://www.mkdocs.org/user-guide/writing-your-docs/ - MkDocs reference
 
 ## Software used
+
 * https://squidfunk.github.io/mkdocs-material/ - The static site generator used for this documentation site. (MIT License)
 * https://github.com/byrnereese/mkdocs-minify-plugin - Minify plugin used. (MIT License)
 * https://github.com/datarobot/mkdocs-redirects - Redirects plugin used. (MIT License)
@@ -22,6 +19,7 @@ Goals:
 * https://github.com/Guts/mkdocs-rss-plugin - RSS plugin used. (GPL 3.0 License)
 
 ## Instructions for deploying a local environment
+
 Prerequisites:
 * Python 3
 * Pip
@@ -37,6 +35,7 @@ mkdocs serve
 And it should give you a weburl in the terminal to go to --> http://127.0.0.1:8000
 
 ## Credits
+
 Huge thanks to [@tofukazoo](https://github.com/tofukazoo) (Jorge González) for helping me with the initial GitHub automation, lots of conceptual brainstorming, important early-stage debating, and finally the motivation and encouragement to get this project going!
 
 Thanks to [@Kitrinx](https://github.com/Kitrinx/), [@sentientsix](https://github.com/sentientsix), [@alanswx](https://github.com/alanswx/), [@MiSTerAddons](https://github.com/misteraddons), [@Tonurics](https://github.com/tonurics/), [@theypsilon](https://github.com/theypsilon/), and many more for so much help and advice with the content written and with the initial layout!
